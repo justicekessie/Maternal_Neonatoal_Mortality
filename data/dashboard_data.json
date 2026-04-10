@@ -1,0 +1,565 @@
+{
+  "overview": {
+    "total_pregnancies": 71271,
+    "live_births": 59198,
+    "stillbirths": 1283,
+    "miscarriages": 5247,
+    "abortions": 5543,
+    "neonatal_deaths": 1857,
+    "infant_deaths": 3060,
+    "under5_deaths": 4114,
+    "children_died": 5286,
+    "total_women_surveyed": 25062,
+    "total_households": 26324,
+    "total_verbal_autopsies": 2122,
+    "maternal_deaths_va": 181,
+    "neonatal_mortality_rate": 31.0,
+    "infant_mortality_rate": 52.0,
+    "stillbirth_rate": 18.0
+  },
+  "pregnancy_outcomes": {
+    "Live birth": 59198,
+    "Stillbirth": 1283,
+    "Miscarriage": 5247,
+    "Abortion": 5543
+  },
+  "regional": {
+    "Western": {
+      "total_pregnancies": 6459,
+      "live_births": 5108,
+      "stillbirths": 136,
+      "neonatal_deaths": 153,
+      "infant_deaths": 239,
+      "anc_coverage": 97.3,
+      "facility_delivery_pct": 80.7,
+      "home_delivery_pct": 19.3,
+      "csection_rate": 13.6,
+      "skilled_birth_pct": 11.7,
+      "neonatal_mortality_rate": 30.0,
+      "stillbirth_rate": 21.1,
+      "maternal_deaths": 21,
+      "total_va_deaths": 159
+    },
+    "Central": {
+      "total_pregnancies": 4791,
+      "live_births": 3874,
+      "stillbirths": 114,
+      "neonatal_deaths": 137,
+      "infant_deaths": 227,
+      "anc_coverage": 97.6,
+      "facility_delivery_pct": 79.0,
+      "home_delivery_pct": 21.0,
+      "csection_rate": 16.3,
+      "skilled_birth_pct": 10.8,
+      "neonatal_mortality_rate": 35.4,
+      "stillbirth_rate": 23.8,
+      "maternal_deaths": 23,
+      "total_va_deaths": 181
+    },
+    "Greater Accra": {
+      "total_pregnancies": 5752,
+      "live_births": 4043,
+      "stillbirths": 108,
+      "neonatal_deaths": 107,
+      "infant_deaths": 159,
+      "anc_coverage": 98.2,
+      "facility_delivery_pct": 93.3,
+      "home_delivery_pct": 6.7,
+      "csection_rate": 23.1,
+      "skilled_birth_pct": 12.3,
+      "neonatal_mortality_rate": 26.5,
+      "stillbirth_rate": 18.8,
+      "maternal_deaths": 16,
+      "total_va_deaths": 167
+    },
+    "Volta": {
+      "total_pregnancies": 4224,
+      "live_births": 3452,
+      "stillbirths": 71,
+      "neonatal_deaths": 120,
+      "infant_deaths": 182,
+      "anc_coverage": 95.7,
+      "facility_delivery_pct": 66.9,
+      "home_delivery_pct": 33.1,
+      "csection_rate": 17.3,
+      "skilled_birth_pct": 8.6,
+      "neonatal_mortality_rate": 34.8,
+      "stillbirth_rate": 16.8,
+      "maternal_deaths": 15,
+      "total_va_deaths": 200
+    },
+    "Eastern": {
+      "total_pregnancies": 6082,
+      "live_births": 4889,
+      "stillbirths": 89,
+      "neonatal_deaths": 138,
+      "infant_deaths": 218,
+      "anc_coverage": 97.1,
+      "facility_delivery_pct": 77.4,
+      "home_delivery_pct": 22.6,
+      "csection_rate": 15.9,
+      "skilled_birth_pct": 11.2,
+      "neonatal_mortality_rate": 28.2,
+      "stillbirth_rate": 14.6,
+      "maternal_deaths": 19,
+      "total_va_deaths": 250
+    },
+    "Ashanti": {
+      "total_pregnancies": 8887,
+      "live_births": 6653,
+      "stillbirths": 191,
+      "neonatal_deaths": 205,
+      "infant_deaths": 318,
+      "anc_coverage": 98.1,
+      "facility_delivery_pct": 85.5,
+      "home_delivery_pct": 14.5,
+      "csection_rate": 18.7,
+      "skilled_birth_pct": 10.8,
+      "neonatal_mortality_rate": 30.8,
+      "stillbirth_rate": 21.5,
+      "maternal_deaths": 13,
+      "total_va_deaths": 182
+    },
+    "Brong Ahafo": {
+      "total_pregnancies": 6710,
+      "live_births": 5385,
+      "stillbirths": 123,
+      "neonatal_deaths": 140,
+      "infant_deaths": 243,
+      "anc_coverage": 99.2,
+      "facility_delivery_pct": 81.6,
+      "home_delivery_pct": 18.4,
+      "csection_rate": 14.1,
+      "skilled_birth_pct": 11.3,
+      "neonatal_mortality_rate": 26.0,
+      "stillbirth_rate": 18.3,
+      "maternal_deaths": 17,
+      "total_va_deaths": 177
+    },
+    "Northern": {
+      "total_pregnancies": 13463,
+      "live_births": 12363,
+      "stillbirths": 220,
+      "neonatal_deaths": 408,
+      "infant_deaths": 691,
+      "anc_coverage": 97.8,
+      "facility_delivery_pct": 59.5,
+      "home_delivery_pct": 40.5,
+      "csection_rate": 9.0,
+      "skilled_birth_pct": 9.5,
+      "neonatal_mortality_rate": 33.0,
+      "stillbirth_rate": 16.3,
+      "maternal_deaths": 36,
+      "total_va_deaths": 393
+    },
+    "Upper East": {
+      "total_pregnancies": 7298,
+      "live_births": 6634,
+      "stillbirths": 122,
+      "neonatal_deaths": 191,
+      "infant_deaths": 322,
+      "anc_coverage": 99.6,
+      "facility_delivery_pct": 92.4,
+      "home_delivery_pct": 7.6,
+      "csection_rate": 7.1,
+      "skilled_birth_pct": 15.3,
+      "neonatal_mortality_rate": 28.8,
+      "stillbirth_rate": 16.7,
+      "maternal_deaths": 9,
+      "total_va_deaths": 250
+    },
+    "Upper West": {
+      "total_pregnancies": 7605,
+      "live_births": 6797,
+      "stillbirths": 109,
+      "neonatal_deaths": 258,
+      "infant_deaths": 461,
+      "anc_coverage": 99.0,
+      "facility_delivery_pct": 83.3,
+      "home_delivery_pct": 16.7,
+      "csection_rate": 9.4,
+      "skilled_birth_pct": 12.3,
+      "neonatal_mortality_rate": 38.0,
+      "stillbirth_rate": 14.3,
+      "maternal_deaths": 12,
+      "total_va_deaths": 163
+    }
+  },
+  "delivery_place": {
+    "Home": 2237,
+    "Other home": 346,
+    "Govt Hospital": 5310,
+    "Govt Health Center": 2706,
+    "Govt Health Post/CHPS": 347,
+    "Mobile Clinic": 7,
+    "Other Public": 1,
+    "Private Hospital": 878,
+    "FP/PPAG Clinic": 10,
+    "Private Mobile": 3,
+    "Maternity Home": 82,
+    "Other Private": 1,
+    "Other": 149
+  },
+  "delivery_assistance": {
+    "Doctor": 568,
+    "Nurse/Midwife": 7291,
+    "Community Health Officer": 204,
+    "Traditional Birth Attendant": 1174,
+    "Village Health Volunteer": 68,
+    "Traditional Practitioner": 180,
+    "Relative/Friend": 869,
+    "Other": 4,
+    "No one assisted": 332
+  },
+  "delivery_place_grouped": {
+    "Health Facility": 9345,
+    "Home": 2583,
+    "Other": 149
+  },
+  "csection": {
+    "yes": 1270,
+    "no": 8072,
+    "rate": 13.6
+  },
+  "anc": {
+    "received": 11847,
+    "not_received": 230,
+    "coverage_pct": 98.1
+  },
+  "anc_visits": {
+    "0": 0,
+    "1-3": 988,
+    "4-7": 6079,
+    "8+": 4755
+  },
+  "anc_services": {
+    "Blood Pressure": 99.4,
+    "Urine Sample": 96.1,
+    "Blood Sample": 97.9,
+    "Weight": 99.4,
+    "Told about Complications": 84.7,
+    "Told where to go": 97.5
+  },
+  "neonatal_by_sex": {
+    "Male": {
+      "deaths": 1104,
+      "live_births": 30314,
+      "rate": 36.4
+    },
+    "Female": {
+      "deaths": 753,
+      "live_births": 28884,
+      "rate": 26.1
+    }
+  },
+  "neonatal_by_residence": {
+    "Urban": {
+      "deaths": 729,
+      "live_births": 23664,
+      "rate": 30.8
+    },
+    "Rural": {
+      "deaths": 1128,
+      "live_births": 35534,
+      "rate": 31.7
+    }
+  },
+  "neonatal_by_birth_type": {
+    "Single": {
+      "deaths": 1565,
+      "live_births": 56921,
+      "rate": 27.5
+    },
+    "Multiple": {
+      "deaths": 292,
+      "live_births": 2277,
+      "rate": 128.2
+    }
+  },
+  "neonatal_timing": {
+    "Early neonatal (0-6 days)": 1471,
+    "Late neonatal (7-27 days)": 383
+  },
+  "maternal_death_timing": {
+    "Not pregnancy-related": 1146,
+    "During pregnancy": 48,
+    "During childbirth": 46,
+    "Within 42 days postpartum": 87,
+    "43 days to 1 year postpartum": 40
+  },
+  "place_of_death": {
+    "Home": 474,
+    "Other home": 105,
+    "Health facility": 662,
+    "En route to facility": 63,
+    "Shrine/Prayer camp": 26,
+    "Other": 37
+  },
+  "va_deaths_by_region": {
+    "Western": 159,
+    "Central": 181,
+    "Greater Accra": 167,
+    "Volta": 200,
+    "Eastern": 250,
+    "Ashanti": 182,
+    "Brong Ahafo": 177,
+    "Northern": 393,
+    "Upper East": 250,
+    "Upper West": 163
+  },
+  "va_age_at_death": {
+    "0-4": 6,
+    "5-14": 89,
+    "15-24": 237,
+    "25-34": 411,
+    "35-44": 457,
+    "45-54": 386,
+    "55-64": 151,
+    "65-74": 40,
+    "75+": 40
+  },
+  "va_by_residence": {
+    "Urban": 999,
+    "Rural": 1123
+  },
+  "maternal_complications": {
+    "High blood pressure": 22,
+    "Foul discharge": 4,
+    "Bleeding while pregnant": 16,
+    "Excessive bleeding during delivery": 35,
+    "Excessive bleeding after delivery": 56,
+    "Convulsions (last 3 months)": 0,
+    "Blurred vision": 10,
+    "Hysterectomy": 11,
+    "Abnormal position baby": 2
+  },
+  "icd10_causes": {
+    "Infectious/Parasitic": 339,
+    "Circulatory system": 163,
+    "Symptoms/Ill-defined": 159,
+    "Pregnancy/Childbirth": 143,
+    "Digestive system": 99,
+    "External causes": 93,
+    "Blood/Immune disorders": 82,
+    "Neoplasms": 69,
+    "Nervous system": 54,
+    "Respiratory system": 46,
+    "Genitourinary": 37,
+    "Endocrine/Metabolic": 29,
+    "Skin disorders": 21,
+    "Injury/Poisoning": 16,
+    "Mental disorders": 10,
+    "Congenital malformations": 4,
+    "Musculoskeletal": 3
+  },
+  "education": {
+    "No education": 0,
+    "Primary incomplete": 0,
+    "Primary complete": 0,
+    "Secondary incomplete": 0,
+    "Secondary complete": 0,
+    "Higher": 0
+  },
+  "religion": {
+    "Catholic": 3322,
+    "Anglican": 158,
+    "Methodist": 1124,
+    "Presbyterian": 1159,
+    "Pentecostal/Charismatic": 9013,
+    "Other Christian": 2975,
+    "Islam": 6080,
+    "Traditional/Spiritualist": 617,
+    "No religion": 611,
+    "Other": 3
+  },
+  "ethnicity": {
+    "Akan": 8837,
+    "Ga/Dangme": 1279,
+    "Ewe": 2474,
+    "Guan": 905,
+    "Mole-Dagbani": 7651,
+    "Grusi": 1284,
+    "Gurma": 1799,
+    "Mande": 293,
+    "Other": 540
+  },
+  "residence_type": {
+    "Urban": 12544,
+    "Rural": 12518
+  },
+  "women_age_distribution": {
+    "15-19": 4909,
+    "20-24": 4263,
+    "25-29": 4174,
+    "30-34": 3617,
+    "35-39": 3260,
+    "40-44": 2448,
+    "45-49": 2391
+  },
+  "wealth_index": {
+    "Lowest": 6841,
+    "Second": 4846,
+    "Middle": 4883,
+    "Fourth": 5115,
+    "Highest": 4639
+  },
+  "pregnancy_outcomes_by_region": {
+    "Western": {
+      "Live birth": 5108,
+      "Stillbirth": 136,
+      "Miscarriage": 471,
+      "Abortion": 744
+    },
+    "Central": {
+      "Live birth": 3874,
+      "Stillbirth": 114,
+      "Miscarriage": 380,
+      "Abortion": 423
+    },
+    "Greater Accra": {
+      "Live birth": 4043,
+      "Stillbirth": 108,
+      "Miscarriage": 601,
+      "Abortion": 1000
+    },
+    "Volta": {
+      "Live birth": 3452,
+      "Stillbirth": 71,
+      "Miscarriage": 316,
+      "Abortion": 385
+    },
+    "Eastern": {
+      "Live birth": 4889,
+      "Stillbirth": 89,
+      "Miscarriage": 455,
+      "Abortion": 649
+    },
+    "Ashanti": {
+      "Live birth": 6653,
+      "Stillbirth": 191,
+      "Miscarriage": 833,
+      "Abortion": 1210
+    },
+    "Brong Ahafo": {
+      "Live birth": 5385,
+      "Stillbirth": 123,
+      "Miscarriage": 518,
+      "Abortion": 684
+    },
+    "Northern": {
+      "Live birth": 12363,
+      "Stillbirth": 220,
+      "Miscarriage": 714,
+      "Abortion": 166
+    },
+    "Upper East": {
+      "Live birth": 6634,
+      "Stillbirth": 122,
+      "Miscarriage": 428,
+      "Abortion": 114
+    },
+    "Upper West": {
+      "Live birth": 6797,
+      "Stillbirth": 109,
+      "Miscarriage": 531,
+      "Abortion": 168
+    }
+  },
+  "postnatal_care": {
+    "mother_check_pct": 94.9,
+    "child_check_pct": 96.9,
+    "mother_checked": 8864,
+    "child_checked": 8829
+  },
+  "delivery_complications": {
+    "experienced": 2111,
+    "total_asked": 12077,
+    "rate": 17.5
+  },
+  "complication_care_seeking": {
+    "sought_care": 1902,
+    "did_not_seek": 209,
+    "pct_sought": 90.1
+  },
+  "preventive_care": {
+    "Tetanus injection": 87.5,
+    "Iron tablets": 94.0,
+    "Malaria prophylaxis (SP/Fansidar)": 92.2
+  },
+  "skilled_attendance_by_region": {
+    "Western": 11.7,
+    "Central": 10.8,
+    "Greater Accra": 12.3,
+    "Volta": 8.6,
+    "Eastern": 11.2,
+    "Ashanti": 10.8,
+    "Brong Ahafo": 11.3,
+    "Northern": 9.5,
+    "Upper East": 15.3,
+    "Upper West": 12.3
+  },
+  "deaths_by_year": {
+    "2000": 3,
+    "2001": 2,
+    "2002": 14,
+    "2003": 6,
+    "2004": 9,
+    "2005": 10,
+    "2006": 17,
+    "2007": 31,
+    "2008": 28,
+    "2009": 32,
+    "2010": 68,
+    "2011": 67,
+    "2012": 230,
+    "2013": 247,
+    "2014": 333,
+    "2015": 423,
+    "2016": 465,
+    "2017": 119
+  },
+  "pregnancy_outcomes_by_residence": {
+    "Urban": {
+      "Live birth": 23664,
+      "Stillbirth": 581,
+      "Miscarriage": 2913,
+      "Abortion": 3796
+    },
+    "Rural": {
+      "Live birth": 35534,
+      "Stillbirth": 702,
+      "Miscarriage": 2334,
+      "Abortion": 1747
+    }
+  },
+  "facility_delivery_by_region": {
+    "Western": 80.7,
+    "Central": 79.0,
+    "Greater Accra": 93.3,
+    "Volta": 66.9,
+    "Eastern": 77.4,
+    "Ashanti": 85.5,
+    "Brong Ahafo": 81.6,
+    "Northern": 59.5,
+    "Upper East": 92.4,
+    "Upper West": 83.3
+  },
+  "birth_weight": {
+    "Very low (<1.5 kg)": 37,
+    "Low (1.5-2.5 kg)": 571,
+    "Normal (2.5-4.0 kg)": 6309,
+    "High (>4.0 kg)": 1294
+  },
+  "child_size_at_birth": {
+    "Very large": 2250,
+    "Larger than average": 2772,
+    "Average": 4640,
+    "Smaller than average": 1307,
+    "Very small": 889
+  },
+  "contraceptive_use": {
+    "currently_using": 5989,
+    "not_using": 17326,
+    "prevalence_pct": 25.7
+  }
+}

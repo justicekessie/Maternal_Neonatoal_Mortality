@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghana Maternal & Neonatal Health Dashboard</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <div class="nav-logo">
+                <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/><path d="M16 6C16 6 10 14 10 18c0 3.3 2.7 6 6 6s6-2.7 6-6c0-4-6-12-6-12z" fill="currentColor" opacity="0.3"/><path d="M16 10c0 0-4 5.5-4 8 0 2.2 1.8 4 4 4s4-1.8 4-4c0-2.5-4-8-4-8z" fill="currentColor"/></svg>
+            </div>
+            <span class="nav-title">Ghana Maternal & Neonatal Health</span>
+        </div>
+        <div class="nav-links">
+            <a href="#overview" class="nav-link active" data-section="overview">Overview</a>
+            <a href="#map" class="nav-link" data-section="map">Regional Map</a>
+            <a href="#maternal" class="nav-link" data-section="maternal">Maternal Health</a>
+            <a href="#neonatal" class="nav-link" data-section="neonatal">Neonatal</a>
+            <a href="#care" class="nav-link" data-section="care">Health Care</a>
+            <a href="#demographics" class="nav-link" data-section="demographics">Demographics</a>
+        </div>
+        <button class="share-btn" onclick="openShareModal()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+            Share
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="overview">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Ghana Demographic & Health Survey</div>
+            <h1 class="hero-title">Maternal & Neonatal<br>Health Dashboard</h1>
+            <p class="hero-subtitle">Comprehensive analysis of pregnancy outcomes, maternal mortality, neonatal health, and healthcare access across all 10 regions of Ghana</p>
+            <div class="hero-stats">
+                <div class="hero-stat" data-count="71271">
+                    <span class="hero-stat-number" id="stat-pregnancies">0</span>
+                    <span class="hero-stat-label">Total Pregnancies</span>
+                </div>
+                <div class="hero-stat" data-count="25062">
+                    <span class="hero-stat-number" id="stat-women">0</span>
+                    <span class="hero-stat-label">Women Surveyed</span>
+                </div>
+                <div class="hero-stat" data-count="26324">
+                    <span class="hero-stat-number" id="stat-households">0</span>
+                    <span class="hero-stat-label">Households</span>
+                </div>
+                <div class="hero-stat" data-count="2122">
+                    <span class="hero-stat-number" id="stat-autopsies">0</span>
+                    <span class="hero-stat-label">Verbal Autopsies</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+        </div>
+    </header>
+
+    <!-- Key Indicators Strip -->
+    <section class="indicators-strip">
+        <div class="indicator-card critical">
+            <div class="indicator-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <div class="indicator-body">
+                <span class="indicator-value" id="ind-nmr">--</span>
+                <span class="indicator-label">Neonatal Mortality Rate</span>
+                <span class="indicator-unit">per 1,000 live births</span>
+            </div>
+        </div>
+        <div class="indicator-card warning">
+            <div class="indicator-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <div class="indicator-body">
+                <span class="indicator-value" id="ind-imr">--</span>
+                <span class="indicator-label">Infant Mortality Rate</span>
+                <span class="indicator-unit">per 1,000 live births</span>
+            </div>
+        </div>
+        <div class="indicator-card info">
+            <div class="indicator-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <div class="indicator-body">
+                <span class="indicator-value" id="ind-maternal">--</span>
+                <span class="indicator-label">Maternal Deaths (VA)</span>
+                <span class="indicator-unit">from 2,122 verbal autopsies</span>
+            </div>
+        </div>
+        <div class="indicator-card success">
+            <div class="indicator-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div class="indicator-body">
+                <span class="indicator-value" id="ind-sbr">--</span>
+                <span class="indicator-label">Stillbirth Rate</span>
+                <span class="indicator-unit">per 1,000 total births</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section section-dark" id="map">
+        <div class="section-header">
+            <h2 class="section-title">Regional Health Map of Ghana</h2>
+            <p class="section-desc">Click on any region to explore detailed maternal and neonatal health indicators. Colors represent neonatal mortality rates.</p>
+        </div>
+        <div class="map-container">
+            <div class="map-wrapper">
+                <div id="ghana-map"></div>
+            </div>
+            <div class="map-sidebar" id="map-sidebar">
+                <div class="sidebar-placeholder">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 10-16 0c0 3 2.7 7 8 11.7z"/></svg>
+                    <p>Click a region on the map to view detailed health indicators</p>
+                </div>
+                <div class="sidebar-content" id="sidebar-content" style="display:none;">
+                    <h3 id="sidebar-region-name"></h3>
+                    <div class="sidebar-grid" id="sidebar-grid"></div>
+                </div>
+            </div>
+        </div>
+        <div class="map-legend" id="map-legend"></div>
+    </section>
+
+    <!-- Pregnancy Outcomes -->
+    <section class="section" id="maternal">
+        <div class="section-header">
+            <h2 class="section-title">Pregnancy Outcomes</h2>
+            <p class="section-desc">Distribution of pregnancy outcomes across 71,271 pregnancies recorded in the survey</p>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Overall Pregnancy Outcomes</h3>
+                <div class="chart-wrapper"><canvas id="chart-pregout"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Outcomes by Region</h3>
+                <div class="chart-wrapper chart-wrapper-tall"><canvas id="chart-pregout-region"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Outcomes: Urban vs. Rural</h3>
+                <div class="chart-wrapper"><canvas id="chart-pregout-residence"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Child Size at Birth</h3>
+                <div class="chart-wrapper"><canvas id="chart-birthsize"></canvas></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maternal Mortality -->
+    <section class="section section-dark">
+        <div class="section-header">
+            <h2 class="section-title">Maternal Mortality Analysis</h2>
+            <p class="section-desc">Insights from 2,122 verbal autopsies documenting causes and circumstances of death</p>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Deaths Related to Pregnancy/Childbirth</h3>
+                <div class="chart-wrapper"><canvas id="chart-maternal-timing"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Cause of Death (ICD-10 Categories)</h3>
+                <div class="chart-wrapper chart-wrapper-tall"><canvas id="chart-icd10"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-3">
+            <div class="chart-card">
+                <h3 class="chart-title">Maternal Complications (n=181)</h3>
+                <div class="chart-wrapper chart-wrapper-tall"><canvas id="chart-maternal-comp"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Place of Death</h3>
+                <div class="chart-wrapper"><canvas id="chart-death-place"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Deaths by Year</h3>
+                <div class="chart-wrapper"><canvas id="chart-deaths-year"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Age at Death Distribution</h3>
+                <div class="chart-wrapper"><canvas id="chart-age-death"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Deaths by Region</h3>
+                <div class="chart-wrapper"><canvas id="chart-va-region"></canvas></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neonatal Health -->
+    <section class="section" id="neonatal">
+        <div class="section-header">
+            <h2 class="section-title">Neonatal & Child Health</h2>
+            <p class="section-desc">Analysis of neonatal mortality patterns across demographics and regions</p>
+        </div>
+        <div class="chart-grid-3">
+            <div class="chart-card">
+                <h3 class="chart-title">Neonatal Deaths by Sex</h3>
+                <div class="chart-wrapper"><canvas id="chart-neo-sex"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Neonatal Deaths: Urban vs. Rural</h3>
+                <div class="chart-wrapper"><canvas id="chart-neo-residence"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Single vs. Multiple Births</h3>
+                <div class="chart-wrapper"><canvas id="chart-neo-birthtype"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Neonatal Death Timing</h3>
+                <div class="chart-wrapper"><canvas id="chart-neo-timing"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Neonatal Mortality Rate by Region</h3>
+                <div class="chart-wrapper"><canvas id="chart-neo-region"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Birth Weight Distribution</h3>
+                <div class="chart-wrapper"><canvas id="chart-birthweight"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Child Mortality Cascade</h3>
+                <div class="mortality-funnel" id="mortality-funnel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Healthcare Access -->
+    <section class="section section-dark" id="care">
+        <div class="section-header">
+            <h2 class="section-title">Healthcare Access & Delivery</h2>
+            <p class="section-desc">Analysis of antenatal care coverage, delivery assistance, and healthcare seeking behavior</p>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Antenatal Care Coverage</h3>
+                <div class="gauge-container">
+                    <canvas id="gauge-anc" width="300" height="200"></canvas>
+                    <div class="gauge-label">ANC Coverage</div>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Number of ANC Visits</h3>
+                <div class="chart-wrapper"><canvas id="chart-anc-visits"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">ANC Services Received (%)</h3>
+                <div class="chart-wrapper"><canvas id="chart-anc-services"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Preventive Care During Pregnancy (%)</h3>
+                <div class="chart-wrapper"><canvas id="chart-preventive"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Place of Delivery</h3>
+                <div class="chart-wrapper"><canvas id="chart-delivery-place"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Delivery Assistance</h3>
+                <div class="chart-wrapper"><canvas id="chart-delivery-assist"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-2">
+            <div class="chart-card">
+                <h3 class="chart-title">Facility Delivery Rate by Region</h3>
+                <div class="chart-wrapper"><canvas id="chart-facility-region"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Skilled Birth Attendance by Region</h3>
+                <div class="chart-wrapper"><canvas id="chart-sba-region"></canvas></div>
+            </div>
+        </div>
+
+        <!-- Care stat cards -->
+        <div class="stat-cards-row">
+            <div class="stat-mini-card">
+                <div class="stat-mini-value" id="stat-csection">--</div>
+                <div class="stat-mini-label">C-Section Rate</div>
+            </div>
+            <div class="stat-mini-card">
+                <div class="stat-mini-value" id="stat-pnc-mother">--</div>
+                <div class="stat-mini-label">Postnatal Check (Mother)</div>
+            </div>
+            <div class="stat-mini-card">
+                <div class="stat-mini-value" id="stat-pnc-child">--</div>
+                <div class="stat-mini-label">Postnatal Check (Child)</div>
+            </div>
+            <div class="stat-mini-card">
+                <div class="stat-mini-value" id="stat-complications">--</div>
+                <div class="stat-mini-label">Delivery Complications Rate</div>
+            </div>
+            <div class="stat-mini-card">
+                <div class="stat-mini-value" id="stat-care-seeking">--</div>
+                <div class="stat-mini-label">Sought Care for Complications</div>
+            </div>
+            <div class="stat-mini-card">
+                <div class="stat-mini-value" id="stat-contraceptive">--</div>
+                <div class="stat-mini-label">Contraceptive Prevalence</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demographics -->
+    <section class="section" id="demographics">
+        <div class="section-header">
+            <h2 class="section-title">Demographic Profile</h2>
+            <p class="section-desc">Characteristics of the 25,062 women surveyed across Ghana</p>
+        </div>
+        <div class="chart-grid-3">
+            <div class="chart-card">
+                <h3 class="chart-title">Age Distribution of Women</h3>
+                <div class="chart-wrapper"><canvas id="chart-age-dist"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Education Level</h3>
+                <div class="chart-wrapper"><canvas id="chart-education"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Wealth Quintile (Households)</h3>
+                <div class="chart-wrapper"><canvas id="chart-wealth"></canvas></div>
+            </div>
+        </div>
+        <div class="chart-grid-3">
+            <div class="chart-card">
+                <h3 class="chart-title">Religion</h3>
+                <div class="chart-wrapper"><canvas id="chart-religion"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Ethnicity</h3>
+                <div class="chart-wrapper"><canvas id="chart-ethnicity"></canvas></div>
+            </div>
+            <div class="chart-card">
+                <h3 class="chart-title">Urban vs. Rural</h3>
+                <div class="chart-wrapper"><canvas id="chart-residence"></canvas></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Ghana Maternal & Neonatal Health Dashboard</h3>
+                <p>Data source: Ghana Demographic and Health Survey (DHS) &mdash; Maternal and Neonatal Mortality Study. Survey conducted across all 10 regions of Ghana covering 26,324 households.</p>
+                <p class="footer-note">This dashboard was created for research and educational purposes. All data has been processed from the original SPSS datasets provided by the survey.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Sections</h4>
+                <a href="#overview">Overview</a>
+                <a href="#map">Regional Map</a>
+                <a href="#maternal">Maternal Health</a>
+                <a href="#neonatal">Neonatal Health</a>
+                <a href="#care">Healthcare Access</a>
+                <a href="#demographics">Demographics</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Built with data from Ghana DHS</p>
+        </div>
+    </footer>
+
+    <!-- Share Modal -->
+    <div class="modal-overlay" id="share-modal" onclick="closeShareModal(event)">
+        <div class="modal">
+            <h3>Share This Dashboard</h3>
+            <p>Share insights from Ghana's Maternal & Neonatal Health data</p>
+            <div class="share-options">
+                <button class="share-option" onclick="shareVia('twitter')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    X / Twitter
+                </button>
+                <button class="share-option" onclick="shareVia('linkedin')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    LinkedIn
+                </button>
+                <button class="share-option" onclick="shareVia('copy')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+                    Copy Link
+                </button>
+            </div>
+            <button class="modal-close" onclick="closeShareModal(event)">Close</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
