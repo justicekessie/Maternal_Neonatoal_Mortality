@@ -1,0 +1,804 @@
+                                                   GHIQ7IFL                                                   
+                                                GHIQ7IFL_DICT                                                 
+
+                                        GHIQ7IFL.DCF                                                          
+                                     Last Modified:  8/8/2018  9:13:08 AM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+HOUSEHOLD                     Household                                                                       
+  RECORD1                       RECORD1                                                          Yes    1  917
+Level: Household                                       Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+QHCLUST           (id) Cluster number                                     1    4    N    I    1    0   No  Yes
+                               1:900  
+QHNUMBER          (id) Household number                                   5    4    N    I    1    0   No  Yes
+QLINE             (id) Individual line number                             9    2    N    I    1    0   No  Yes
+                         (record type)                                    0    0   AN    I    1    0   No   No
+QREGION                Region                                            11    2    N    I    1    0   No   No
+                               1   Western
+                               2   Central
+                               3   Greater accra
+                               4   Volta
+                               5   Eastern
+                               6   Ashanti
+                               7   Brong ahafo
+                               8   Northern
+                               9   Upper east
+                               10  Upper west
+QDISTR                 District                                          13    4    N    I    1    0   No   No
+QINTD                  Day of interview                                  17    2    N    I    1    0   No   No
+                               1:31  
+QINTM                  Month of interview                                19    2    N    I    1    0   No   No
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+QINTY                  Year of interview                                 21    4    N    I    1    0   No   No
+                               2017  
+QINTNUM                Interviewer number                                25    4    N    I    1    0   No   No
+QRESULT                Result of individual interview                    29    1    N    I    1    0   No   No
+                               1  Completed
+                               2  Not at home
+                               3  Postponed
+                               4  Refused
+                               5  Partly completed
+                               6  Incapacitated
+                               7  Other
+QVISITS                Total number of visits                            30    1    N    I    1    0   No   No
+                               1:5  
+QSUPERV                Supervisor number                                 31    4    N    I    1    0   No   No
+QLANGQ                 Language of questionnaire                         35    2    N    I    1    0   No   No
+                               0  English
+                               1  Akan
+                               2  Ga
+                               3  Ewe
+QLANGI                 Language of interview                             37    2    N    I    1    0   No   No
+                               0   English
+                               1   Akan
+                               2   Ga
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+QLANGR                 Language of respondent                            39    2    N    I    1    0   No   No
+                               0   English
+                               1   Akan
+                               2   Ga
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+QTRANS                 Translator used                                   41    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QINTC                  Date of interview (CMC)                           42    4    N    I    1    0   No   No
+                          (na)       Not applicable
+QINTCD                 Date of interview Century Day Code (CDC)          46    5    N    I    1    0   No   No
+                          (na)        Not applicable
+QWEIGHT                Sample weight (6 decimals)                        51    8    N    I    1    0   No   No
+                          (na)           Not applicable
+QTYPE                  Type of place of residence                        59    1    N    I    1    0   No   No
+                               1  Urban
+                               2  Rural
+QCONSENT               Consent agreement                                 60    1    N    I    1    0   No   No
+                               1  Respondent agrees to be interviewed
+                               2  Respondent does not agree to be interviewed
+Q101H                  Start of interview (hour)                         61    2    N    I    1    0   No  Yes
+                               0:23  
+                               97    Inconsistent
+Q101M                  Start of interview (minutes)                      63    2    N    I    1    0   No  Yes
+                               0:59  
+                               97    Inconsistent
+Q102                   Time living in place of interview                 65    2    N    I    1    0   No   No
+                               0     Less than one year
+                               1:49  
+                               95    Always
+                               96    Visitor
+Q103                   Lived in a city/town or rural area                67    1    N    I    1    0   No   No
+                               1  City
+                               2  Town
+                               3  Rural area
+Q104                   Region lived before moved to place of interview   68    2    N    I    1    0   No   No
+                               1   Western
+                               2   Central
+                               3   Greater accra
+                               4   Volta
+                               5   Eastern
+                               6   Ashanti
+                               7   Brong ahafo
+                               8   Northern
+                               9   Upper east
+                               10  Upper west
+                               96  Outside of ghana
+Q105M                  Month of birth                                    70    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Don't know month
+Q105Y                  Year of birth                                     72    4    N    I    1    0   No  Yes
+                               1967:2002  
+                               9998       Don't know year
+Q106                   Current age of respondent                         76    2    N    I    1    0   No   No
+                               15:49  
+                               98     DK
+Q107                   Ever attended school                              78    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q108                   Highest educational level                         79    1    N    I    1    0   No   No
+                               1  Primary
+                               2  Middle
+                               3  Jss/jhs
+                               4  Secondary/Tech/Voc/Comm
+                               5  Sss/Shs/Tech/Voc/Comm
+                               6  Higher
+Q109                   Highest grade/form/year at that level             80    2    N    I    1    0   No   No
+                               0    Less than one year
+                               1:9  
+Q111                   Sentence read                                     82    1    N    I    1    0   No   No
+                               1  Cannot read at all
+                               2  Able to read only part of the sentence
+                               3  Able to read whole sentence
+                               4  No card with required language
+                               5  Blind/visually impaired
+Q113                   Reads newspaper                                   83    1    N    I    1    0   No   No
+                               1  At least once a week
+                               2  Less than once a week
+                               3  Not at all
+Q114                   Listens to radio                                  84    1    N    I    1    0   No   No
+                               1  At least once a week
+                               2  Less than once a week
+                               3  Not at all
+Q115                   Watches television                                85    1    N    I    1    0   No   No
+                               1  At least once a week
+                               2  Less than once a week
+                               3  Not at all
+Q116                   Own a mobile telephone                            86    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q117                   Use mobile telephone for financial transactions   87    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q118                   Have a bank or other financial account            88    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q119                   Have ever used the internet                       89    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q120                   Have used the internet last 12 months             90    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q121                   How often used internet the last month            91    1    N    I    1    0   No   No
+                               1  Almost every day
+                               2  At least once a week
+                               3  Less than once a week
+                               4  Not at all
+Q122                   Religion                                          92    2    N    I    1    0   No   No
+                               1   Catholic
+                               2   Anglican
+                               3   Methodist
+                               4   Presbyterian
+                               5   Pentecostal/charismatic
+                               6   Other christian
+                               7   Islam
+                               8   Traditional/spiritualist
+                               9   No religion
+                               96  Other
+Q123                   Ethnicity                                         94    2    N    I    1    0   No   No
+                               1   Akan
+                               2   Ga/dangme
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+Q105C                  Date of birth (CMC)                               96    4    N    I    1    0   No   No
+Q105F                  Date flag for Q105C                              100    1    N    I    1    0   No   No
+                               1  Month and year
+                               2  Month and age -y imp
+                               3  Year and age - m imp
+                               4  Y & age - y ignored
+                               5  Year - a, m imp
+                               6  Age - y, m imp
+                               7  Month - a, y imp
+                               8  None - all imp
+Q106C                  Age of respondent calculated                     101    2    N    I    1    0   No   No
+Q108A                  Highest educational level                        103    1    N    I    1    0   No   No
+                               0  No education
+                               1  Primary incomplete
+                               2  Primary complete
+                               3  Secondary incomplete
+                               4  Secondary complete
+                               5  Higher
+QWFTOTAL               All woman factor - total                         104    5    N    I    1    0   No   No
+                               0  NotAppl
+QWFTYPE                All woman factor - urban/rural                   109    5    N    I    1    0   No   No
+                               0  NotAppl
+QWFREG                 All woman factor - regional                      114    5    N    I    1    0   No   No
+                               0  NotAppl
+QWFEDUC                All woman factor - educational                   119    5    N    I    1    0   No   No
+                               0  NotAppl
+QWFWLTH                All woman factor - wealth index                  124    5    N    I    1    0   No   No
+                               0  NotAppl
+Q201                   Ever given birth                                 129    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q202                   Sons or daughters living with                    130    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q203A                  Sons at home                                     131    2    N    I    1    0   No   No
+                               0:20  
+Q203B                  Daughters at home                                133    2    N    I    1    0   No   No
+                               0:20  
+Q204                   Sons or daughters living away                    135    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q205A                  Sons living elsewhere                            136    2    N    I    1    0   No   No
+                               0:20  
+Q205B                  Daughters living elsewhere                       138    2    N    I    1    0   No   No
+                               0:20  
+Q206                   Sons or daughters who died                       140    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q206AA                 Boys who died                                    141    2    N    I    1    0   No   No
+                               0:20  
+Q206AB                 Girls who died                                   143    2    N    I    1    0   No   No
+                               0:20  
+Q207A                  Ever had miscarriage                             145    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q207B                  Number of miscarriages                           146    2    N    I    1    0   No   No
+                               1:20  
+Q207C                  Ever had abortion                                148    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q207D                  Number of abortions                              149    2    N    I    1    0   No   No
+                               1:20  
+Q207E                  Ever had a stillbirth                            151    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q207F                  Number of stillbirths                            152    2    N    I    1    0   No   No
+                               1:20  
+Q208A                  Total births                                     154    2    N    I    1    0   No   No
+                               0:24  
+Q208B                  Total pregnancy outcomes                         156    2    N    I    1    0   No   No
+                               0:40  
+Q208C                  Total pregnancies with no live births            158    2    N    I    1    0   No   No
+                               0:40  
+Q209                   Probe to pregnancies                             160    1    N    I    1    0   No   No
+                               1  Yes, is correct
+                               2  No, is not correct
+Q222                   Birth between last & interview                   161    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q224A                  Abortions since January 2012                     162    1    N    I    1    0   No   No
+                               0    None
+                               1:6  
+Q224AY                 Year of most recent abortion in 2012 or after    163    4    N    I    1    0   No   No
+                               0     None
+                               2012  2012
+                               2013  2013
+                               2014  2014
+                               2015  2015
+                               2016  2016
+                               2017  2017
+                               9998  DK year
+Q224B                  Miscarriages since January 2012                  167    1    N    I    1    0   No   No
+                               0    None
+                               1:6  
+Q224BY                 Year of most recent miscarriage in 2012 or afte  168    4    N    I    1    0   No   No
+                               0     None
+                               2012  2012
+                               2013  2013
+                               2014  2014
+                               2015  2015
+                               2016  2016
+                               2017  2017
+                               9998  DK year
+Q224C                  Births since January 2012                        172    1    N    I    1    0   No   No
+                               0    None
+                               1:6  
+Q224D                  Stillbirths since January 2012                   173    1    N    I    1    0   No   No
+                               0    None
+                               1:6  
+Q226                   Currently pregnant                               174    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Unsure
+Q227                   Duration of current pregnancy                    175    2    N    I    1    0   No   No
+                               1:10  
+Q228                   Wanted pregnancy at that time                    177    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q229                   Wanted pregnancy                                 178    1    N    I    1    0   No   No
+                               1  Later
+                               2  No more/none
+Q230U                  Time since last period (unit)                    179    1    N    I    1    0   No  Yes
+                               1  Days ago
+                               2  Weeks ago
+                               3  Months ago
+                               4  Years ago
+                               9  Special answers
+Q230N                  Time since last period (number)                  180    2    N    I    1    0   No  Yes
+                               0:90  
+                               94    In menopause, has had hysterectomy
+                               95    Before last birth
+                               96    Never menstruated
+                               98    Don't know
+Q231                   Knowledge of fertile period                      182    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q232                   When is the fertile period                       183    1    N    I    1    0   No   No
+                               1  Just before her period begins
+                               2  During her period
+                               3  Right after her period has ended
+                               4  Halfway between two periods
+                               6  Other
+                               8  Don't know
+Q233                   After birth, can a woman get pregnant before pe  184    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q227C                  Date of conception (CMC)                         185    4    N    I    1    0   No   No
+Q227F                  Date flag for Q227C                              189    1    N    I    1    0   No   No
+                               7  Month - exact date
+                               8  None - imputed
+Q238F                  Flag for Q239                                    190    1    N    I    1    0   No   No
+                               0  
+                               1  N > interval since birth
+                               2  N + amenorrhea > interval
+                               3  N, but period not returned
+                               4  95, but no birth
+                               5  95, but period returned
+                               6  96, but period returned
+                               7  N, last period in pregnancy
+                               8  96, had children
+                               9  N, period before last birth
+Q301N                  Contraceptive method                             191    2    N    I   14    0   No   No
+                               1   Female Sterilization
+                               2   Male Sterilization
+                               3   IUD
+                               4   Injectables
+                               5   Implants
+                               6   Pill
+                               7   Condom
+                               8   Female condom
+                               9   Emergency contraception
+                               10  Lactational amenorrhea method (LAM)
+                               11  Rhythm method
+                               12  Withdrawal
+                               13  Other modern method
+                               14  Other traditional method
+Q301                   Heard of method                                  219    1    N    I   14    0   No   No
+                               1  Yes
+                               2  No
+Q303                   Currently using any method                       233    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q304                   Current contraceptive method                     234   16   AN    I    1    0   No   No
+    Note: Does not allow missing
+                               A                 Female sterilization
+                               B                 Male sterilization
+                               C                 IUD
+                               D                 Injectables
+                               E                 Implants
+                               F                 Pill
+                               G                 Condom
+                               H                 Female condom
+                               I                 Diaphragm
+                               J                 Foam/jelly
+                               K                 Emergency contraception
+                               L                 Lactational amenorrhea method (LAM)
+                               M                 Rhythm method
+                               N                 Withdrawal
+                               X                 Other modern method
+                               Y                 Other traditional method
+Q305                   Know source for FP                               250    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+Q306                   Place known for FP                               251   19   AN    I    1    0   No   No
+                               A                    Public: Govt hospital
+                               B                    Public: Govt health center/clinic
+                               C                    Public: Govt health post/chps
+                               D                    Public: Mobile clinic/outreach
+                               E                    Public: Family planning clinic
+                               F                    Public: Fieldworker
+                               G                    Public: Other public sector
+                               H                    Private: Hospital/clinic
+                               I                    Private: Doctor
+                               J                    Private: Mobile clinic/outreach
+                               K                    Private: Pharmacy/chemist/drug store
+                               L                    Private: Fieldworker
+                               M                    Private: Fp/ppag clinic
+                               N                    Private: Maternity home
+                               O                    Private: Other private med sector
+                               P                    Other source: Shop
+                               Q                    Other source: Church
+                               R                    Other source: Friend/relative
+                               X                    Other
+Q304N                  Current contraceptive method (major method)      270    2    N    I    1    0   No   No
+                               1   Female Sterilization
+                               2   Male Sterilization
+                               3   IUD
+                               4   Injectables
+                               5   Implants
+                               6   Pill
+                               7   Condom
+                               8   Female condom
+                               9   Diaphragm
+                               10  Foam/jelly
+                               11  Emergency contraception
+                               12  Lactational amenorrhea method (LAM)
+                               13  Rhythm method
+                               14  Withdrawal
+                               95  Other modern method
+                               96  Other traditional method
+Q577                   Ever heard of abortion                           272    1    N    I    2    0   No   No
+                               1  Yes
+                               2  No
+Q578                   Could decide on your own to get an abortion      274    1    N    I    2    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q579                   Knows where to get an abortion                   276    1    N    I    2    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q580                   Where to go for abortion                         278   19   AN    I    2    0   No   No
+                               A                    Public: Govt hospital
+                               B                    Public: Govt health center/clinic
+                               C                    Public: Govt health post/chps
+                               D                    Public: Mobile clinic/outreach
+                               E                    Public: Family planning clinic
+                               F                    Public: Fieldworker
+                               G                    Public: Other public sector
+                               H                    Private: Hospital/clinic
+                               I                    Private: Doctor
+                               J                    Private: Mobile clinic/outreach
+                               K                    Private: Pharmacy/chemist/drug store
+                               L                    Private: Fieldworker
+                               M                    Private: Fp/ppag clinic
+                               N                    Private: Maternity home
+                               O                    Private: Other private med sector
+                               P                    Other source: Shop
+                               Q                    Other source: Church
+                               R                    Other source: Friend/relative
+                               X                    Other
+Q581                   Abortion legal in Ghana                          316    1    N    I    2    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q582                   Conditions of legal abortion in Ghana            318   11   AN    I    2    0   No   No
+                               A            Rape/defilement
+                               B            Incest
+                               C            Life of mother in danger
+                               D            Risk to physical health of mother
+                               E            Risk to mental health of mother
+                               F            Foetal abnormality
+                               G            During first trimester only
+                               H            Up to the second trimester
+                               I            Mother mentally not sound
+                               J            Not ready/to young/continue education
+                               K            Financial problems/partner denies responsibility
+                               X            Other
+                               Z            Don't know
+Q701                   Currently in union                               340    1    N    I    1    0   No   No
+                               1  Yes, currently married
+                               2  Yes, living with a man
+                               3  No, not in union
+Q702                   Have ever been married or lived with a man       341    1    N    I    1    0   No   No
+                               1  Yes, formerly married
+                               2  Yes, lived with a man
+                               3  No
+Q703                   Current marital status                           342    1    N    I    1    0   No   No
+                               1  Widowed
+                               2  Divorced
+                               3  Separated
+Q704                   Partner living with respondent                   343    1    N    I    1    0   No   No
+                               1  Lives with her
+                               2  Staying elsewhere
+Q705                   Line number of husband                           344    2    N    I    1    0   No   No
+                               0     Not listed in the household
+                               1:50  
+Q706                   Husband has other wives                          346    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q707                   Number of wives including respondent             347    2    N    I    1    0   No   No
+                               2:20  
+                               98    Don't know
+Q708                   Wife's rank number                               349    2    N    I    1    0   No   No
+                               1:20  
+Q709                   In union more than once                          351    1    N    I    1    0   No   No
+                               1  Only once
+                               2  More than once
+Q710M                  Time of first union (month)                      352    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               97  Inconsistent
+                               98  Don't know month
+Q710Y                  Time of first union (year)                       354    4    N    I    1    0   No  Yes
+                               1977:2017  
+                               9997       Inconsistent
+                               9998       Don't know year
+Q711                   Age at first union                               358    2    N    I    1    0   No   No
+                               8:49  
+                               97    Inconsistent
+Q713                   Age at first intercourse                         360    2    N    I    1    0   No   No
+                               0     Never had sexual intercourse
+                               7:49  
+                               97    Refuse to answer
+Q714U                  Time since last intercourse (unit)               362    1    N    I    1    0   No  Yes
+                               1  Days ago
+                               2  Weeks ago
+                               3  Months ago
+                               4  Years ago
+Q714N                  Time since last intercourse (number)             363    2    N    I    1    0   No  Yes
+                               0:90  
+Q710C                  Date of first union (CMC)                        365    4    N    I    1    0   No   No
+Q710F                  Date flag for Q710C                              369    1    N    I    1    0   No   No
+                               1  Month and year
+                               2  Month and age -y imp
+                               5  Year - a, m imp
+                               6  Age - y, m imp
+                               7  Month - a, y imp
+                               8  None - all imp
+Q711C                  Age at first union (calculated)                  370    2    N    I    1    0   No   No
+Q713F                  Flag for Q713                                    372    1    N    I    1    0   No   No
+                               0  No flag
+                               1  After interview
+                               2  After conception >= 1 yr
+                               3  After conception < 1 yr
+                               4  At marriage, never married
+                               5  At marriage, after conception
+                               6  After marriage
+Q714F                  Flag for Q714                                    373    1    N    I    1    0   No   No
+                               0  No flag
+                               1  N > interval since birth
+                               2  N + abstinence > interval
+                               3  N, but sex not resumed
+                               4  96, but no birth
+                               5  96, but currently pregnant
+                               6  96, but resumed sex
+                               7  N, last sex before pregnancy
+                               8  N, inconsistent with sex in last 4 weeks
+                               9  N, sex before last birth
+Q813                   Column number                                    374    2    N    I   20    0   No   No
+                               1:24  
+Q814                   Sex of sibling                                   414    1    N    I   20    0   No   No
+                               1  Male
+                               2  Female
+Q815                   Sibling alive                                    434    1    N    I   20    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q816                   Age of sibling                                   454    2    N    I   20    0   No   No
+                               0:75  
+Q817                   Years since siblings death                       494    2    N    I   20    0   No   No
+                               0:75  
+Q818                   Age of sibling at death                          534    2    N    I   20    0   No   No
+                               0:75  
+Q819                   Died while pregnant                              574    1    N    I   20    0   No   No
+                               1  Yes
+                               2  No
+Q820                   Died during childbirth                           594    1    N    I   20    0   No   No
+                               1  Yes
+                               2  No
+Q821                   Died within 2 months of delivery                 614    1    N    I   20    0   No   No
+                               1  Yes
+                               2  No
+Q822                   Days after end of pregnancy/childbirth sister d  634    2    N    I   20    0   No   No
+                               0:62  
+Q823                   Death due to violence                            674    1    N    I   20    0   No   No
+                               1  Yes
+                               2  No
+Q824                   Death due to accident                            694    1    N    I   20    0   No   No
+                               1  Yes
+                               2  No
+Q816C                  CMC date of birth of sibling                     714    4    N    I   20    0   No   No
+Q817C                  CMC date of death of sibling                     794    4    N    I   20    0   No   No
+Q901A                  Care factors: Getting permission                 874    1    N    I    1    0   No   No
+                               1  Big problem
+                               2  Not a big problem
+Q901B                  Care factors: Getting money needed for treatmen  875    1    N    I    1    0   No   No
+                               1  Big problem
+                               2  Not a big problem
+Q901C                  Care factors: Distance, no nearby health facili  876    1    N    I    1    0   No   No
+                               1  Big problem
+                               2  Not a big problem
+Q901D                  Care factors: Not wanting to go alone            877    1    N    I    1    0   No   No
+                               1  Big problem
+                               2  Not a big problem
+Q902                   Registered with any health insurance             878    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q903                   Covered by health insurance                      879    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q904                   Type of health insurance                         880    5   AN    I    1    0   No   No
+                               A      National/district health insurance (nhis)
+                               B      Health insurance through employer
+                               C      Mutual health organization/community-based health ins
+                               D      Other privately purchased/commercial health insurance
+                               X      Other
+Q905A                  Insurance coverage: Antenatal                    885    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q905B                  Insurance coverage: Childbirth                   886    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q905C                  Insurance coverage: Postnatal care for mother    887    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q905D                  Insurance coverage: Postnatal care for child     888    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q905E                  Insurance coverage: Cash benefits                889    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q905F                  Insurance coverage: Other maternity benefits     890    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q906                   Pay for drugs/services                           891    1    N    I    1    0   No   No
+                               1  Yes, always
+                               2  Yes, sometimes
+                               3  No, never
+                               8  Don't know
+Q908                   Asked to make any payment during antenatal care  892    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+Q909A                  Asked to pay for services during antenatal care  893    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q909B                  Asked to pay for drugs during antenatal care     894    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q909C                  Asked to pay for laboratory tests during antena  895    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q909D                  Asked to pay for other supplies during antenata  896    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q909E                  Asked to pay for anything else during antenatal  897    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q911                   Asked to make any payment during delivery        898    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+Q912A                  Asked to pay for services during delivery        899    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q912B                  Asked to pay for drugs during delivery           900    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q912C                  Asked to pay for laboratory tests during delive  901    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q912D                  Asked to pay for other supplies during delivery  902    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q912E                  Asked to pay for anything else during delivery   903    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q914                   Asked to make any payment for checks on woman h  904    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q916                   Asked to make any payment for checks on child h  905    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q917                   Wears glasses or contact lens                    906    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q918                   Type of seeing difficulty using glasses or cont  907    1    N    I    1    0   No   No
+                               1  No difficulty
+                               2  Some difficulty
+                               3  A lot of difficulty
+                               4  Cannot at all
+                               8  Don't know
+Q919                   Type of seeing difficulty                        908    1    N    I    1    0   No   No
+                               1  No difficulty
+                               2  Some difficulty
+                               3  A lot of difficulty
+                               4  Cannot at all
+                               8  Don't know
+Q920                   Type of hearing difficulty                       909    1    N    I    1    0   No   No
+                               1  No difficulty
+                               2  Some difficulty
+                               3  A lot of difficulty
+                               4  Cannot at all
+                               8  Don't know
+Q921                   Type of communication difficulty                 910    1    N    I    1    0   No   No
+                               1  No difficulty
+                               2  Some difficulty
+                               3  A lot of difficulty
+                               4  Cannot at all
+                               8  Don't know
+Q922                   Type of remembering difficulty                   911    1    N    I    1    0   No   No
+                               1  No difficulty
+                               2  Some difficulty
+                               3  A lot of difficulty
+                               4  Cannot at all
+                               8  Don't know
+Q923                   Type of walking/climbing steps difficulty        912    1    N    I    1    0   No   No
+                               1  No difficulty
+                               2  Some difficulty
+                               3  A lot of difficulty
+                               4  Cannot at all
+                               8  Don't know
+Q924                   Type of washing/cleaning difficulty              913    1    N    I    1    0   No   No
+                               1  No difficulty
+                               2  Some difficulty
+                               3  A lot of difficulty
+                               4  Cannot at all
+                               8  Don't know
+Q925H                  End of interview (hour)                          914    2    N    I    1    0   No  Yes
+                               0:23  
+Q925M                  End of interview (minutes)                       916    2    N    I    1    0   No  Yes
+                               0:59  
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------

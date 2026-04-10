@@ -1,0 +1,1722 @@
+                                             GHVA7IFL_LAST5YEARS                                              
+                                           GHVA7IFL_LAST5YEARS_DICT                                           
+
+                                  GHVA7IFL_LAST5YEARS.DCF                                                     
+                                     Last Modified:  8/8/2018  7:00:44 AM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+INDIVIDUAL                    Individual                                                                      
+  RECORD1                       RECORD1                                                          Yes    1  593
+Level: Individual                                      Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+QVHCLUST          (id) Cluster number                                     1    4    N    I    1    0   No  Yes
+                               1:900  
+QVHNUMBER         (id) Household number                                   5    4    N    I    1    0   No  Yes
+QLINE             (id) Individual line number                             9    2    N    I    1    0   No  Yes
+                         (record type)                                    0    0   AN    I    1    0   No   No
+QREGION                Region                                            11    2    N    I    1    0   No   No
+                               1   Western
+                               2   Central
+                               3   Greater Accra
+                               4   Volta
+                               5   Eastern
+                               6   Ashanti
+                               7   Brong Ahafo
+                               8   Northern
+                               9   Upper East
+                               10  Upper West
+QDISTR                 District                                          13    4    N    I    1    0   No   No
+QINTD                  Day of interview                                  17    2    N    I    1    0   No   No
+                               1:31  
+QINTM                  Month of interview                                19    2    N    I    1    0   No   No
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+QINTY                  Year of interview                                 21    4    N    I    1    0   No   No
+                               2017  
+QINTNUM                Interviewer number                                25    4    N    I    1    0   No   No
+QRESULT                Result of individual interview                    29    1    N    I    1    0   No   No
+                               1  Completed
+                               2  No household member at home or no competent respondent
+                               3  Entire household absent for extended period of time
+                               4  Postponed
+                               5  Refused
+                               6  Dwelling vacant or address not a dwelling
+                               7  Dwelling destroyed
+                               8  Dwelling not found
+                               9  Other
+QVISITS                Total number of visits                            30    1    N    I    1    0   No   No
+                               1:5  
+QSUPERV                Supervisor number                                 31    4    N    I    1    0   No   No
+QLANGQ                 Language of questionnaire                         35    2    N    I    1    0   No   No
+                               0  English
+                               1  Akan
+                               2  Ga
+                               3  Ewe
+QLANGI                 Language of interview                             37    2    N    I    1    0   No   No
+                               0   English
+                               1   Akan
+                               2   Ga
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+QLANGR                 Language of respondent                            39    2    N    I    1    0   No   No
+                               0   English
+                               1   Akan
+                               2   Ga
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+QTRANS                 Translator used                                   41    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QINTC                  Date of interview (CMC)                           42    4    N    I    1    0   No   No
+QINTCD                 Date of interview Century Day Code (CDC)          46    5    N    I    1    0   No   No
+QWEIGHT                Sample weight (6 decimals)                        51    8    N    I    1    0   No   No
+QTYPE                  Type of place of residence                        59    1    N    I    1    0   No   No
+                               1  Urban
+                               2  Rural
+QCONSENT               Consent agreement                                 60    1    N    I    1    0   No   No
+                               1  Respondent agrees to be interviewed
+                               2  Respondent does not agree to be interviewed
+Q1007H                 End of interview (hour)                           61    2    N    I    1    0   No  Yes
+                               5:23  
+Q1007M                 End of interview (minutes)                        63    2    N    I    1    0   No  Yes
+                               0:59  
+Q100H                  Start of interview (hour)                         65    2    N    I    1    0   No  Yes
+                               5:22  
+Q100M                  Start of interview (minutes)                      67    2    N    I    1    0   No  Yes
+                               0:59  
+Q101D                  Day of birth                                      69    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Don't know day
+Q101M                  Month of birth                                    71    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Don't know month
+Q101Y                  Year of birth                                     73    4    N    I    1    0   No  Yes
+                               1918:2017  
+Q102D                  Day of death                                      77    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Don't know day
+Q102M                  Month of death                                    79    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Don't know month
+Q102Y                  Year of death                                     81    4    N    I    1    0   No  Yes
+                               1918:2017  
+Q104                   Age at death                                      85    2    N    I    1    0   No   No
+                               0:94  
+                               95    95 or more
+Q106                   Died while pregnant                               87    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q107                   Died during childbirth                            88    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q108A                  Died within 2 months of delivery                  89    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q108B                  Days after end of pregnancy/childbirth died       90    2    N    I    1    0   No   No
+                               0:62  
+Q108C                  Death due to violence                             92    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q108D                  Death due to accident                             93    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q109                   Marital status                                    94    1    N    I    1    0   No   No
+                               1  Never married
+                               2  Married
+                               3  Living with a partner
+                               4  Separated
+                               5  Divorced
+                               6  Widowed
+Q110                   Highest educational level attended                95    1    N    I    1    0   No   No
+                               1  Primary
+                               2  Middle
+                               3  Jss/jhs
+                               4  Secondary/Tech/Voc/Comm
+                               5  Sss/Shs/Tech/Voc/Comm
+                               6  Higher
+                               7  Never attended school
+                               8  Don't know
+Q111                   Work in last 12 months before died                96    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q112                   Occupation                                        97    2    N    I    1    0   No   No
+                               1   Commissioned armed forces officers
+                               2   Non-commissioned armed forces officers
+                               3   Armed forces occupations, other ranks
+                               11  Chief executive, senior officers and legislators
+                               12  Administrative and commercial managers
+                               13  Production and specialized service managers
+                               14  Hospitality, retail and other services managers
+                               21  Science and engineering professionals
+                               22  Health professionals
+                               23  Teaching professionals
+                               24  Business and administrative professionals
+                               25  Information and communication technology professionals
+                               26  Legal, social and cultural professional
+                               31  Science and engineering associate professionals
+                               32  Health associate professionals
+                               33  Business and administration associate professionals
+                               34  Legal, social cultural and related associate professionals
+                               35  Information and communications technicians
+                               41  General and keyboard clerks
+                               42  Customer service clerks
+                               43  Numerical and mateial recording clerks
+                               44  Other clerical support workers
+                               51  Personal sales workers
+                               52  Sales workers
+                               53  Personal care workers
+                               61  Market-oriented agricultural workers
+                               62  Market-oriented skilled forestry, fishery and hunting workers
+                               63  Subsistence farmers, fishers, hunters and gatherers
+                               71  Building and related trades workers, excluding electricians
+                               72  Metal, machinery and related trades workers
+                               73  Handicraft and printing workers
+                               74  Electrical and electronic trades workers
+                               75  Food processing, wood working, garment and other craft and related trades w
+                               81  Stationary plant and machine operators
+                               82  Assemblers
+                               83  Drivers and mobile plant operators
+                               91  Cleaners and helpers
+                               92  Agricultural, forestry and fishery labourers
+                               93  Labours in mining, construction, manufacturing and transport
+                               94  Food preparation assistants
+                               95  Street and related sales and service workers
+                               96  Refuse workers and other elementary workers
+                               97  Other occupations
+Q113                   Religion                                          99    2    N    I    1    0   No   No
+                               1   Catholic
+                               2   Anglican
+                               3   Methodist
+                               4   Presbyterian
+                               5   Pentecostal/charismatic
+                               6   Other christian
+                               7   Islam
+                               8   Traditional/spiritualist
+                               9   No religion
+                               96  Other
+                               98  Don't know
+Q114                   Ethnic group                                     101    2    N    I    1    0   No   No
+                               1   Akan
+                               2   Ga/dangme
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+Q115                   Place of death                                   103    1    N    I    1    0   No   No
+                               1  Her home
+                               2  Other home
+                               3  Health facility
+                               4  En route to health facility
+                               5  Shrine/prayer camp
+                               6  Other
+Q116                   Usual place of residence                         104    1    N    I    1    0   No   No
+                               1  In this house
+                               2  In this locality
+                               3  In a different village/town
+                               6  Other
+Q117                   Place of burial                                  105    1    N    I    1    0   No   No
+                               1  In this house
+                               2  In this locality
+                               3  In a different village/town
+                               4  Burial not yet performed
+                               6  Other
+Q118                   Season where she died                            106    1    N    I    1    0   No   No
+                               1  Wet season
+                               2  Dry season
+                               6  Other
+Q119                   Relationship with main respondent                107    1    N    I    1    0   No   No
+                               1  Husband/partner
+                               2  Parent
+                               3  Child
+                               4  Sibling
+                               5  Other family member
+                               6  Friend
+                               7  Another relationship
+Q120                   Living with respondent at period of death        108    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QELIG                  VA eligibility                                   109    1    N    I    1    0   No   No
+                               1  Eligible for VA
+                               2  Not eligible based on date of death
+                               3  Not eligible based on age of death
+Q101C                  Date of birth (CMC)                              110    4    N    I    1    0   No   No
+Q101F                  Date flag for Q101C                              114    1    N    I    1    0   No   No
+                               0  Ruled ineligible for survey
+                               1  Month and year
+                               2  Month and age -y imp
+                               3  Year and age - m imp
+                               4  Y & age - y ignored
+                               5  Year - a, m imp
+                               6  Age - y, m imp
+                               7  Month - a, y imp
+                               8  None - all imp
+Q102C                  Date of death (CMC)                              115    4    N    I    1    0   No   No
+Q102F                  Date flag for Q102C                              119    1    N    I    1    0   No   No
+                               0  Ruled ineligible for survey
+                               1  M of death and Y of death
+                               2  Y of death, Age of Death, Y of Birth, M of Birth - M of death imputed
+                               3  Y of death, Age of death, Year of birth - M of death imputed
+                               4  Y of death, Age of death, M of birth - M of death imputed
+                               5  Y of death, Age of death - M of death imputed
+                               6  Y of deah - M of death imputed
+                               7  None - Y of death, M of death imputed
+                               8  Other
+Q201                   Description of events leading to death           120    1    N    I    1    0   No   No
+                               6  Narrative events
+Q102CD                 Date of death Century Day Code (CDC)             121    5    N    I    1    0   No   No
+Q102DI                 Imputed day of death                             126    2    N    I    1    0   No   No
+                               1:31  
+Q301                   Suffered from any injury or accident that led t  128    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q302A                  Road traffic accident                            129    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q302B                  Role in road traffic accident                    130    1    N    I    1    0   No   No
+                               1  Pedestrian
+                               2  Driver or passenger in car or light vehicle
+                               3  Driver or passenger in bus or heavy vehicle
+                               4  Driver or passenger on motorcycle
+                               5  Driver or passenger on pedal cycle
+                               6  Other
+                               8  Don't know
+Q302C                  Counterpart during the road traffic accident     131   10   AN    I    1    0   No   No
+                               A           Pedestrian
+                               B           Stationary object
+                               C           Car or light vehicle
+                               D           Bus or heavy vehicle
+                               E           Motorcycle
+                               F           Pedal cycle
+                               H           Ditch/verge/side of road
+                               I           Road surface
+                               X           Other
+                               Y           Don't know
+Q303                   Injured in a non-road transport accident         141    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q304                   Injured in a fall                                142    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q305                   Was there any poisoning                          143    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q306                   Die of drowning                                  144    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q307A                  Injured by a bite or sting of venomous animal    145    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q307B                  Injured by an animal or insect (non-venomous)    146    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q307C                  Type of animal or insect                         147    1    N    I    1    0   No   No
+                               1  Dog
+                               2  Snake
+                               3  Insect
+                               4  Scorpion
+                               6  Other
+                               8  Don't know
+Q308                   Injured by burns or fire                         148    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q309                   Subject to violence (suicide, homicide, or abus  149    1    N    I    1    0   No   No
+                               1  Yes, suicide
+                               2  Yes, homicide
+                               3  Yes, abuse
+                               4  No
+                               8  Don't know
+Q310                   Injured by a firearm                             150    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q311                   Stabbed, cut, or pierced                         151    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q312                   Strangled                                        152    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q313                   Injured by a blunt force                         153    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q314                   Injured by a force of nature                     154    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q315                   Electrocuted                                     155    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q316                   Injured by some other injury                     156    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q317                   Injury accidental                                157    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q318                   Accident or injury self-inflicted                158    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q319                   Accident or injury intentionally inflicted by s  159    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q401AU                 Length of illness before death (units)           160    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Weeks
+                               3  Months
+                               4  Years
+Q401AN                 Length of illness before death (number)          161    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+Q402                   Die suddenly                                     163    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q403                   Any diagnosis by a physician or health worker o  164    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q404U                  Months or years prior to death was diagnosed wi  165    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q404N                  Months or years prior to death was diagnosed wi  166    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q405A                  HIV test ever positive                           168    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q405BU                 Days, weeks or months prior to death was tested  169    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Weeks
+                               3  Months
+                               9  Special answers
+Q405BN                 Days, weeks or months prior to death was tested  170    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q406                   Hiv test result                                  172    1    N    I    1    0   No   No
+                               1  Positive
+                               2  Negative
+                               8  Don't know
+Q407                   Any diagnosis by a physician or health worker o  173    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q408U                  Months or years prior to death was diagnosed wi  174    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q408N                  Months or years prior to death was diagnosed wi  175    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q409                   Had a recent test by a physician or health work  177    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q410A                  Malaria test result                              178    1    N    I    1    0   No   No
+                               1  Positive
+                               2  Negative
+                               8  Don't know
+Q410BU                 Days, weeks or months prior to death was tested  179    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Weeks
+                               3  Months
+                               9  Special answers
+Q410BN                 Days, weeks or months prior to death was tested  180    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q413                   Any diagnosis by a physician or health worker o  182    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q414U                  Months or years prior to death was diagnosed wi  183    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q414N                  Months or years prior to death was diagnosed wi  184    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q415                   Any diagnosis by a physician or health worker o  186    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q416U                  Months or years prior to death was diagnosed wi  187    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q416N                  Months or years prior to death was diagnosed wi  188    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q417                   Any diagnosis by a physician or health worker o  190    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q418U                  Months or years prior to death was diagnosed wi  191    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q418N                  Months or years prior to death was diagnosed wi  192    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q419                   Any diagnosis by a physician or health worker o  194    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q420U                  Months or years prior to death was diagnosed wi  195    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q420N                  Months or years prior to death was diagnosed wi  196    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q421                   Any diagnosis by a physician or health worker o  198    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q422U                  Months or years prior to death was diagnosed wi  199    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q422N                  Months or years prior to death was diagnosed wi  200    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q423                   Any diagnosis by a physician or health worker o  202    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q424U                  Months or years prior to death was diagnosed wi  203    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q424N                  Months or years prior to death was diagnosed wi  204    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q425                   Any diagnosis by a physician or health worker o  206    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q426                   Type of cancer                                   207    2    N    I    1    0   No   No
+                               11  Lung
+                               12  Breast
+                               13  Cervix
+                               14  Liver
+                               15  Throat
+                               16  Colon
+                               96  Other
+                               98  Don't know
+Q427U                  Months or years prior to death was diagnosed wi  209    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q427N                  Months or years prior to death was diagnosed wi  210    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q428                   Any diagnosis by a physician or health worker o  212    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q429U                  Months or years prior to death was diagnosed wi  213    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q429N                  Months or years prior to death was diagnosed wi  214    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q430                   Any diagnosis by a physician or health worker o  216    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q431U                  Months or years prior to death was diagnosed wi  217    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q431N                  Months or years prior to death was diagnosed wi  218    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q432                   Any diagnosis by a physician or health worker o  220    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q433U                  Months or years prior to death was diagnosed wi  221    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q433N                  Months or years prior to death was diagnosed wi  222    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q434                   Any diagnosis by a physician or health worker o  224    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q435                   Type of mental disorder                          225    1    N    I    1    0   No   No
+                               1  Bipolar disorder
+                               2  Schizophrenia
+                               6  Other
+                               8  Don't know
+Q436U                  Months or years prior to death was diagnosed wi  226    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q436N                  Months or years prior to death was diagnosed wi  227    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q437                   Any diagnosis by a physician or health worker o  229    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q438U                  Months or years prior to death was diagnosed wi  230    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q438N                  Months or years prior to death was diagnosed wi  231    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q439                   Any diagnosis by a physician or health worker o  233    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q440U                  Months or years prior to death was diagnosed wi  234    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q440N                  Months or years prior to death was diagnosed wi  235    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q441                   Any diagnosis by a physician or health worker o  237    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q442U                  Months or years prior to death was diagnosed wi  238    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q442N                  Months or years prior to death was diagnosed wi  239    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q443                   Any diagnosis by a physician or health worker o  241    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q444U                  Months or years prior to death was diagnosed wi  242    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q444N                  Months or years prior to death was diagnosed wi  243    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q445                   Any diagnosis by a physician or health worker o  245    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q446                   Type of illness                                  246    1    N    I    1    0   No   No
+                               1  Lupus
+                               2  Rheumatoid arthritis
+                               6  Other
+                               8  Don't know
+Q447U                  Months or years prior to death was diagnosed wi  247    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q447N                  Months or years prior to death was diagnosed wi  248    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q448                   Cause of death                                   250    1    N    I    1    0   No   No
+                               6  Cause of death
+Q501A                  Had a fever                                      251    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q501B                  Duration of fever                                252    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q501C                  Fever continued until death                      254    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q501D                  Fever severity                                   255    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+Q501E                  Pattern of the fever                             256    1    N    I    1    0   No   No
+                               1  Continuous
+                               2  On and off
+                               3  Only at night
+                               4  Only during day
+                               8  Don't know
+Q501F                  Had night sweats                                 257    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q502A                  Had a cough                                      258    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q502BU                 Cough duration (units)                           259    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               3  Years
+                               9  Special answers
+Q502BN                 Cough duration (number)                          260    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q502C                  Cough productive, with sputum                    262    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q502D                  Cough very severe                                263    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q502E                  Coughed up blood                                 264    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q503A                  Had any difficulty breathing                     265    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q503BU                 Difficulty breathing duration (units)            266    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               3  Years
+                               9  Special answers
+Q503BN                 Difficulty breathing duration (number)           267    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q503C                  Difficulty continuous or on and off              269    1    N    I    1    0   No   No
+                               1  Continuous
+                               2  On and off
+                               8  Don't know
+Q504A                  Had fast breathing during illness/events that l  270    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q504B                  Duration of fast breathing                       271    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q505A                  Had breathlessness                               273    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q505B                  Duration of breathlessness                       274    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q505C                  Unabled to carry out daily routines due to brea  276    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q505D                  Breathless while lying flat                      277    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q506                   Breathing sound like wheezing during the illnes  278    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q507A                  Had chest pain                                   279    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q507B                  Chest pain severe                                280    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q507C                  Duration of chest pain before death (days)       281    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q507DU                 Duration of chest pain before death (units)      283    1    N    I    1    0   No  Yes
+                               1  Minutes
+                               2  Hours
+                               9  Special answers
+Q507DN                 Duration of chest pain before death (number)     284    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q508A                  Had more frequent loose or liquid stools than u  286    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q508B                  Duration of frequent loose or liquid stools      287    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q508C                  Blood in the stools during final illness/events  289    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q508D                  Blood in the stool up until death                290    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q509A                  Vomited                                          291    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q509B                  Vomited in the week preceding death              292    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q509C                  Duration of vomiting  before death               293    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q509D                  Vomited blood                                    295    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q509E                  Vomited black                                    296    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q510                   Had any belly (abdominal) problems               297    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q511A                  Had any belly (abdominal) pain                   298    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q511B                  Belly (abdominal) pain severe                    299    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q511CU                 Duration of abdominal pain before death (units)  300    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               4  Months
+                               9  Special answers
+Q511CN                 Duration of abdominal pain before death (number  301    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q511D                  Pain in the upper or lower abdomen               303    1    N    I    1    0   No   No
+                               1  Upper abdomen
+                               2  Lower abdomen
+                               3  Upper and lower abdomen
+                               8  Don't know
+Q512A                  Had more than usually protruding abdomen         304    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q512BU                 Duration had a more than usually protruding abd  305    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+Q512BN                 Duration had a more than usually protruding abd  306    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q512C                  Speed of developing the protruding abdomen       308    1    N    I    1    0   No   No
+                               1  Rapidly
+                               2  Slowly
+                               8  Don't know
+Q513A                  Had any mass in the abdomen                      309    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q513BU                 Duration had a mass in the abdomen before death  310    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               9  Special answers
+Q513BN                 Duration had a mass in the abdomen before death  311    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q514                   Had a severe headache                            313    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q515A                  Had a stiff neck during the illness/events that  314    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q515B                  Duration has a stiff neck before death           315    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q516A                  Had a painful neck during the illness/events th  317    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q516B                  Duration had  painful neck before death          318    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q517A                  Had mental confusion                             320    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q517BU                 Duration of mental confusion (units)             321    1    N    I    1    0   No  Yes
+                               1  Months
+                               2  Years
+                               9  Special answers
+Q517BN                 Duration of mental confusion (number)            322    2    N    I    1    0   No  Yes
+                               0:94  
+                               95    95 or more
+                               98    Don't know
+Q518A                  Unconscious during the illness/events that led   324    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q518B                  Unconscious for more than 24 hours before death  325    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q518C                  Unconsciousness start suddenly or quickly, at l  326    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q518D                  Unconsciousness continue until death             327    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q519A                  Had convulsions                                  328    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q519B                  Duration of convulsions                          329    2    N    I    1    0   No   No
+                               0:94  Minutes
+                               95    95 or more
+                               98    Don't know
+Q519C                  Became unconscious immediately after the convul  331    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q520A                  Had any urine problems                           332    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q520B                  Stopped urinating                                333    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q520C                  Went to urinate more often than usual            334    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q520D                  Ever passes blood in the urine                   335    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q522A                  Had sores                                        336    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q522B                  Sores had clear fluid or pus                     337    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q523A                  Had an ulcer or pit on the foot                  338    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q523B                  Ulcer on the foot oozed pus                      339    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q523C                  Duration of the ulcer on the foot that oozed pu  340    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q524A                  Had any skin rash during the illness/events tha  342    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q524B                  Duration had the skin rash                       343    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q524C                  Place of the rash                                345    5   AN    I    1    0   No   No
+                               A      Face/head
+                               B      Trunk or abdomen
+                               C      Extremities
+                               D      Everywhere
+                               Y      Don't know
+Q525                   Did she ever have shingles or herpes zoster?     350    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q526                   Skin flaked off in patches during the illness/e  351    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q527A                  Bled from anywhere during the illness/events th  352    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q527B                  Bled from the mouth, nose, or anus               353    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q528                   Had noticeable weight loss                       354    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q529                   Was severely thin or wasted                      355    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q530                   Had a whitish rash inside the mouth or on the t  356    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q531                   Had stiffness of the whole body or was unable t  357    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q532A                  Had puffiness of the face                        358    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q532B                  Duration of puffiness of the face                359    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q533A                  Had swollen legs or feet during the illness/eve  361    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q533B                  Duration of the swelling                         362    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q533C                  Had both feet swollen                            364    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q534                   Had  general puffiness all over her body         365    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q535A                  Had any lumps                                    366    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q535B                  Had any lumps or lesions in the mouth            367    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q535C                  Had any lumps on the neck                        368    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q535D                  Had any lumps on the armpit                      369    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q535E                  Had any lumps on the groin                       370    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q536A                  Was in any way paralysed                         371    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q536B                  Had paralysis of only one side of the body       372    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q536C                  Which were the limbs or body parts paralysed     373    2    N    I    1    0   No   No
+                               1   Right side of body
+                               2   Left side of body
+                               3   Lower part of body
+                               4   Upper part of body
+                               5   One leg only
+                               6   One arm only
+                               7   Whole body
+                               8   Other
+                               98  Don't know
+Q537A                  Had difficulty swallowing                        375    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q537B                  Duration of difficulty swallowing                376    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q537C                  Difficulty with swallowing with solids, liquids  378    1    N    I    1    0   No   No
+                               1  Solids
+                               2  Liquids
+                               3  Both
+                               8  Don't know
+Q538                   Had pain upon swallowing                         379    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q539A                  Had yellow discoloration of the eyes             380    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q539B                  Duration of yellow discoloration                 381    2    N    I    1    0   No   No
+                               0:94  Days
+                               95    95 or more
+                               98    Don't know
+Q540                   Hair changed in colour to a reddish or yellowis  383    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q541                   Looked pale (thinning/lack of blood) or have pa  384    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q542                   Drank a lot more water than usual                385    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q601                   Had any swelling or lump in the breast           386    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q602                   Had any ulcers (pits) in the breast              387    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q603A                  Ever had a period or menstruate                  388    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q603B                  Had vaginal bleeding in between menstrual perio  389    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q603C                  Vaginal bleeding excessive                       390    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q603E                  Menstrual period stopped naturally because of m  391    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q603F                  Had vaginal bleeding after cessation of menstru  392    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q603G                  Excessive vaginal bleeding in the week prior to  393    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q603I                  Period overdue at the time of death              394    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q603J                  Duration of period overdue                       395    2    N    I    1    0   No   No
+                               0:94  Weeks
+                               95    95 or more
+                               98    Don't know
+Q604                   Had a sharp pain in her abdomen shortly before   397    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q605                   Pregnant at the time of death                    398    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q606                   Died during or within 6 weeks of labour, delive  399    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q608                   Died less than 1 year after being pregnant or d  400    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q608A                  Confirmation: not pregnant and had not been pre  401    1    N    I    1    0   No   No
+                               1  Yes, no pregnancy in 12 months before death
+                               2  No
+                               8  Don't know
+Q609                   Duration of pregnancy                            402    2    N    I    1    0   No   No
+                               0:10  Months
+                               98    Don't know
+Q611                   Died during labour or delivery                   404    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q612A                  Died after delivering a baby                     405    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q612B                  Died within 24 hours after delivery              406    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q613                   Died within 6 weeks of childbirth                407    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q614                   Gave birth to a live baby (within 6 weeks of de  408    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q615                   Died during or after a multiple pregnancy        409    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q616B                  Breastfeeding the child in the days before deat  410    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q617A                  Births/stillbirths before this baby/pregnancy    411    2    N    I    1    0   No   No
+                               0:20  Births/stillbirths
+                               98    Don't know
+Q617C                  Had any previous caesarean section               413    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q618                   During this pregnancy, suffered from high blood  414    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q619                   Had foul smelling vaginal discharge during preg  415    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q620                   Bleeding while pregnant                          416    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q621                   Vaginal bleeding during the first 6 months of p  417    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q622B                  During the last 3 months of pregnancy, suffered  418    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q622C                  During the last 3 months of pregnancy, suffered  419    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q622D                  Vaginal bleeding during the last 3 months of pr  420    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q623A                  Had excessive bleeding during labour or deliver  421    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               3  NA-Labour never started
+                               8  Don't know
+Q623B                  Water broken before labour started or delivery   422    1    N    I    1    0   No   No
+                               1  Before labour started
+                               2  During labour
+                               3  NA-Water never broke
+                               8  Don't know
+Q623C                  Baby delivered less than 24 hours after water b  423    1    N    I    1    0   No   No
+                               1  Less than 24 hours
+                               2  More than 24 hours
+                               3  NA-Baby never delivered
+                               8  Don't know
+Q623D                  Water broke smell foul                           424    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q624                   Had excessive bleeding after delivery/miscarria  425    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q625                   Attempted to terminate the pregnancy             426    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q626                   Had a recently pregnancy that ended in a miscar  427    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q627                   Died during a miscarriage or abortion            428    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q628                   Died within 6 weeks of having a miscarriage or   429    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q630                   Place she gave birth                             430    2    N    I    1    0   No   No
+                               11  Govt hospital
+                               12  Govt health center/clinic
+                               13  Govt health post/chps
+                               14  Mobile clinic/outreach
+                               16  Other public sector
+                               21  Private hospital/clinic
+                               22  Fp/ppag clinic
+                               23  Mobile clinic/outreach
+                               24  Maternity home
+                               26  Other private medical sector
+                               31  Deceased woman's home
+                               32  Other home
+                               33  TBA's home
+                               96  Other
+Q631                   Received professional assistance during the del  432    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q632                   Person who delivered the baby                    433    9   AN    I    1    0   No   No
+                               A          Doctor
+                               B          Nurse/midwife
+                               C          Com  health officer/nurse
+                               D          Traditional birth attendant
+                               E          Village health volunteer
+                               F          Traditional health practitioner
+                               G          Relative/friend
+                               X          Other
+                               Y          No one assisted
+Q633                   Had an operation to remove her uterus shortly b  442    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q634                   Delivery normal vaginal, without forceps or vac  443    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q635                   Delivery vaginal, with forceps or vacuum         444    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q636                   Delivery a caesarean section                     445    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q637                   Baby born more than one month early              446    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q638                   Placenta completely delivered                    447    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q639                   Deliver or tried to deliver an abnormally posit  448    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q640                   Duration of labour                               449    2    N    I    1    0   No   No
+                               0:94  Hours
+                               95    95 or more
+                               96    Never in labour
+                               98    Don't know
+Q701                   Drank alcohol at least once a week               451    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q702A                  Used tobacco (Cigarette, cigar, pipe, etc.)      452    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q702B                  Kind of tobacco used                             453    5   AN    I    1    0   No   No
+                               A      Cigarettes
+                               B      Pipe
+                               C      Chewing tobacco
+                               D      Snuff
+                               Y      Don't know
+Q702C                  Amount of cigarettes smoked daily                458    2    N    I    1    0   No   No
+                               1:79  Cigarettes
+                               80    80 or more
+                               98    Don't know
+Q801                   Received any treatment for the illness/events/c  460    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q802                   Received oral rehydration salts                  461    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q803                   Received (or needed) intravenous fluids (drip)   462    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q804                   Received (or needed) a blood transfusion         463    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q805                   Received (or needed treatment/food through a tu  464    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q806                   Receive (or needed) injectable antibiotics       465    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q807                   Received  (or needed) antiretroviral therapy (A  466    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q808A                  Had  (or needed) an operation for the illness/e  467    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q808B                  Had the operation within 1 month before death    468    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q809                   Discharged from hospital very ill                469    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               3  Never admitted
+                               4  Never discharged
+                               8  Don't know
+Q810A                  Care sought outside the home while she had this  470    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q810B                  Where was care sought                            471   16   AN    I    1    0   No   No
+                               A                 Govt hospital
+                               B                 Govt health center/clinic
+                               C                 Govt health post/chps
+                               D                 Mobile clinic/outreach
+                               E                 Other public sector
+                               F                 Private hospital/clinic
+                               G                 Fp/ppag clinic
+                               H                 Mobile clinic/outreach
+                               I                 Maternity home
+                               J                 Pharmacy/chemist/drug store
+                               K                 Other private medical sector
+                               L                 Deceased woman's home
+                               M                 Other home
+                               N                 TBA's home
+                               O                 Prayer camp/shrine
+                               X                 Other
+Q810C                  Name or address of the main source of care       487    1    N    I    1    0   No   No
+                               6  Name or address of health facility
+Q811A                  Did a health care worker tell you the cause of   488    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q811B                  What the health care worker said                 489    1    N    I    1    0   No   No
+                               6  Health worker said
+Q812A                  Had any health records that belonged to the dec  490    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q812B                  Health record seen                               491    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q812C                  Kind of health record provided                   492    9   AN    I    1    0   No   No
+                               A          Maternal health book
+                               B          Prescription form
+                               C          Treatment cards
+                               D          Discharge form
+                               E          Laboratory results
+                               F          Patient folder
+                               G          Imaging/scan
+                               H          Insurance form
+                               X          Other
+Q813AD                 Day of the most recent (last) visit              501    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Day not recorded
+Q813AM                 Month of the most recent (last) visit            503    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Month not recorded
+Q813AY                 Year of the most recent (last) visit             505    4    N    I    1    0   No  Yes
+                               1918:2017  
+                               9998       Year not recorded
+Q813B                  Weight written at the most recent (last) visit   509    6    N    I    1    2  Yes   No
+                               20.00:199.99  
+                               999.98        Weight not recorded
+Q814AD                 Day of the last but one (second last) visit      515    2    N    I    1    0   No  Yes
+                               1:31  
+                               96    No second last visit
+                               98    Day not recorded
+Q814AM                 Month of the last but one (second last) visit    517    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Month not recorded
+Q814AY                 Year of the last but one (second last) visit     519    4    N    I    1    0   No  Yes
+                               1918:2017  
+                               9998       Year not recorded
+Q814B                  Weight written at the last but one (second last  523    6    N    I    1    2  Yes   No
+                               20.00:199.99  
+                               999.98        Weight not recorded
+Q815AD                 Day of the most recent (last) note               529    2    N    I    1    0   No  Yes
+                               1:31  
+                               96    No note
+                               98    Day not recorded
+Q815AM                 Month of the most recent (last) note             531    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Month not recorded
+Q815AY                 Year of the most recent (last) note              533    4    N    I    1    0   No  Yes
+                               1918:2017  
+                               9998       Year not recorded
+Q815B                  Last note on health records                      537    1    N    I    1    0   No   No
+                               6  Last note on health records
+Q901A                  Traveled to a hospital or health facility, in t  538    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q901B                  Health facility name                             539    1    N    I    1    0   No   No
+                               1  Name
+                               8  Don't know
+Q902A                  Used motorised transport to get to the hospital  540    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q902B                  Main means of transport used to get to hospital  541    2    N    I    1    0   No   No
+                               11  Shared taxi
+                               12  Individual taxi
+                               13  Trotro
+                               14  Bus (metro mass)
+                               15  Private car
+                               16  Train
+                               17  Motorcycle
+                               18  Canoe/boat/ferry with motor
+                               19  Ambulance
+                               20  Canoe/boat/ferry, no motor
+                               21  Bicycle
+                               22  On foot
+                               96  Other
+                               98  Don't know
+Q902C                  Time to get to the health facility               543    3    N    I    1    0   No   No
+                               0:994  Minutes
+                               995    995 or more minutes
+                               998    Don't know
+Q903                   Any problems in being received at the hospital   546    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q904                   Any problems with the way she was treated in th  547    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q905                   Any problems getting medications or diagnostic   548    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               3  NA-Dead on arrival
+                               8  Don't know
+Q906                   Time to get to the nearest health facility       549    3    N    I    1    0   No   No
+                               0:994  Minutes
+                               995    995 or more minutes
+                               998    Don't know
+Q907                   Any doubts about whether medical care was neede  552    1    N    I    1    0   No   No
+                               1  Yes, there were doubts
+                               2  No doubts-illness not serious
+                               3  No doubts-death inevitable
+                               4  No doubts-went to facility
+                               5  No doubts-not sick before death
+                               8  Don't know
+Q908                   Traditional/herbal or spiritual medicine used,   553    1    N    I    1    0   No   No
+                               1  Yes, traditional/herbal only
+                               2  Yes, spiritual only
+                               3  Yes, both
+                               4  No
+                               8  Don't know
+Q909                   Anyone used a telephone or cell phone to call f  554    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q910                   Total costs of care and treatment prohibit othe  555    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q1001A                 Had a death certificate                          556    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q1001B                 Can see the death certificate                    557    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q1002AD                Day of death from death certificate              558    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Day not recorded
+Q1002AM                Month of death from death certificate            560    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Month not recorded
+Q1002AY                Year of death from death certificate             562    4    N    I    1    0   No  Yes
+                               1918:2017  
+                               9998       Year not recorded
+Q1002BD                Day of issue of death certificate                566    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Day not recorded
+Q1002BM                Month of issue of death certificate              568    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Month not recorded
+Q1002BY                Year of issue of death certificate               570    4    N    I    1    0   No  Yes
+                               1918:2017  
+                               9998       Year not recorded
+Q1003A                 Cause of death from the first (top) line of dea  574    1    N    I    1    0   No   No
+                               6  Cause of death (first line)
+Q1003B                 Cause of death from the second line of death ce  575    1    N    I    1    0   No   No
+                               6  Cause of death (second line)
+Q1003C                 Cause of death from the third line of death cer  576    1    N    I    1    0   No   No
+                               6  Cause of death (third line)
+Q1003D                 Cause of death from the fourth line of death ce  577    1    N    I    1    0   No   No
+                               6  Cause of death (fourth line)
+Q1004A                 Had a burial permit                              578    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q1004B                 Can see the burial permit                        579    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q1005D                 Day of issue of burial permit                    580    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Day not recorded
+Q1005M                 Month of issue of burial permit                  582    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Month not recorded
+Q1005Y                 Year of issue of burial permit                   584    4    N    I    1    0   No  Yes
+                               1918:2017  
+                               9998       Year not recorded
+Q1006                  Cause of death from the burial permit            588    1    N    I    1    0   No   No
+                               6  Cause of death from the burial permit
+CDICD10I               ICD-10 Code (After application of m1-m4, final   589    4   AN    I    1    0   No   No
+CDDEATHP               Death during pregnancy, childbirth, or within 4  593    1    N    I    1    0   No   No
+                               1  No, death not during pregnancy, childbirth, or 42 days or 1 year of end of p
+                               2  Yes, during pregnancy
+                               3  Yes, during childbirth
+                               4  Yes, within 42 days of end of pregnancy
+                               5  Yes, between 43 days and 1 year of end of pregnancy
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------

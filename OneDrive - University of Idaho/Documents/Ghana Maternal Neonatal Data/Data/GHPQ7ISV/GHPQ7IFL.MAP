@@ -1,0 +1,476 @@
+                                                   GHPQ7IFL                                                   
+                                                GHPQ7IFL_DICT                                                 
+
+                                        GHPQ7IFL.DCF                                                          
+                                     Last Modified:  8/8/2018  9:13:08 AM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+HOUSEHOLD                     Household                                                                       
+  RECORD1                       RECORD1                                                          Yes    1  189
+Level: Household                                       Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+QHCLUST           (id) Cluster number                                     1    4    N    I    1    0   No  Yes
+                               1:900  
+QHNUMBER          (id) Household number                                   5    4    N    I    1    0   No  Yes
+QH01              (id) Line number of member                              9    2    N    I    1    0   No   No
+                               1:50  
+                         (record type)                                    0    0   AN    I    1    0   No   No
+QHREGION               Region                                            11    2    N    I    1    0   No   No
+                               1   Western
+                               2   Central
+                               3   Greater accra
+                               4   Volta
+                               5   Eastern
+                               6   Ashanti
+                               7   Brong ahafo
+                               8   Northern
+                               9   Upper east
+                               10  Upper west
+QHDISTR                District                                          13    4    N    I    1    0   No   No
+QHINTD                 Interview day                                     17    2    N    I    1    0   No   No
+                               1:31  
+QHINTM                 Interview month                                   19    2    N    I    1    0   No   No
+                               1:12  
+QHINTY                 Interview year                                    21    4    N    I    1    0   No   No
+                               2017  
+QHINTNUM               Interviewer number                                25    4    N    I    1    0   No   No
+QHRESULT               Result of household interview                     29    1    N    I    1    0   No   No
+                               1  Completed
+                               2  No household member at home or no competent respondent at home at time of vi
+                               3  Entire household absent for extended period of time
+                               4  Postponed
+                               5  Refused
+                               6  Dwelling vacant or address not a dwelling
+                               7  Dwelling destroyed
+                               8  Dwelling not found
+                               9  Other
+QHVISITS               Number of household visits                        30    1    N    I    1    0   No   No
+                               1:5  
+QHCONSENT              Consent agreement                                 31    1    N    I    1    0   No   No
+                               1  Respondent agrees to be interviewed
+                               2  Respondent does not agree to be interviewed
+QHMEMBER               Total members in household                        32    2    N    I    1    0   No   No
+                               1:50  
+QHWOMEN                Eligible women in household                       34    2    N    I    1    0   No   No
+                               0:15  
+QHRESP                 Line of household respondent                      36    2    N    I    1    0   No   No
+                               1:50  
+QHSUPERV               Supervisor number                                 38    4    N    I    1    0   No   No
+QHLANGQ                Language of questionnaire                         42    2    N    I    1    0   No   No
+                               0  English
+                               1  Akan
+                               2  Ga
+                               3  Ewe
+QHLANGI                Language of interview                             44    2    N    I    1    0   No   No
+                               0   English
+                               1   Akan
+                               2   Ga
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+QHLANGR                Language of respondent                            46    2    N    I    1    0   No   No
+                               0   English
+                               1   Akan
+                               2   Ga
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+QHTRANS                Translator used                                   48    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH100H                 Hour interview begins                             49    2    N    I    1    0   No   No
+                               0:23  
+QH100M                 Minutes interview begins                          51    2    N    I    1    0   No   No
+                               0:59  
+QHBABIES               Babies in the household                           53    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QHNOFAM                Other non-family members in household             54    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QHTEMP                 Other temporal visitors in household              55    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QHINTC                 Date of household interview (CMC)                 56    4    N    I    1    0   No   No
+                          (na)       Not applicable
+QHINTCD                Date of household interview Century Day Code (C   60    5    N    I    1    0   No   No
+                          (na)        Not applicable
+QHWEIGHT               Household weight (6 decimals)                     65    8    N    I    1    0   No   No
+QHSTRATA               Sampling errors stratum                           73    4    N    I    1    0   No   No
+                               1   Central-Urban
+                               2   Central-Rural
+                               3   Greater Accra-Urban
+                               4   Greater Accra-Rural
+                               5   Volta-Urban
+                               6   Volta-Rural
+                               7   Western-Urban
+                               8   Western-Rural
+                               9   Ashanti-Urban
+                               10  Ashanti-Rural
+                               11  Brong Ahafo-Urban
+                               12  Brong Ahafo-Rural
+                               13  Eastern-Urban
+                               14  Eastern-Rural
+                               15  Northern-Urban
+                               16  Northern-Rural
+                               17  Upper East-Urban
+                               18  Upper East-Rural
+                               19  Upper West-Urban
+                               20  Upper West-Rural
+QHWLTHF                Wealth index factor (5 decimals)                  77    8    N    I    1    0   No   No
+QHWLTHI                Wealth index quintile                             85    1    N    I    1    0   No   No
+                               1  Lowest
+                               2  Second
+                               3  Middle
+                               4  Fourth
+                               5  Highest
+QHTYPE                 Type of place of residence                        86    1    N    I    1    0   No   No
+                               1  Urban
+                               2  Rural
+QHWLTFUR               Wealth index factor for urban/rural (5 decimals   87    8    N    I    1    0   No   No
+                          (na)           Not applicable
+QHWLTIUR               Wealth index quintile for urban/rural             95    1    N    I    1    0   No   No
+                               1  Lowest
+                               2  Second
+                               3  Middle
+                               4  Fourth
+                               5  Highest
+QH101                  Source of drinking water                          96    2    N    I    1    0   No   No
+                               11  Piped into dwelling
+                               12  Piped to yard/plot
+                               13  Piped to neighbor
+                               14  Public tap/standpipe
+                               21  Tube well or borehole
+                               31  Protected well
+                               32  Unprotected well
+                               41  Protected spring
+                               42  Unprotected spring
+                               51  Rainwater
+                               61  Tanker truck
+                               71  Cart with small tank
+                               81  Surface water (river/dam/lake/pond/stream/canal/irrigation channel)
+                               91  Bottled water
+                               92  Sachet water
+                               96  Other
+QH102                  Source of water for cooking/handwashing           98    2    N    I    1    0   No   No
+                               11  Piped into dwelling
+                               12  Piped to yard/plot
+                               13  Piped to neighbor
+                               14  Public tap/standpipe
+                               21  Tube well or borehole
+                               31  Protected well
+                               32  Unprotected well
+                               41  Protected spring
+                               42  Unprotected spring
+                               51  Rainwater
+                               61  Tanker truck
+                               71  Cart with small tank
+                               81  Surface water (river/dam/lake/pond/stream/canal/irrigation channel)
+                               96  Other
+                           (m) 99  Missing
+QH103                  Location of source for water                     100    1    N    I    1    0   No   No
+                               1  In own dwelling
+                               2  In own yard/plot
+                               3  Elsewhere
+QH104                  Time to water and back (mins)                    101    3    N    I    1    0   No   No
+                               0:900  Minutes
+                               998    Don't know
+QH105                  Type of toilet facility                          104    2    N    I    1    0   No   No
+                               11  Flush to piped sewer system
+                               12  Flush to manhole/septic tank
+                               13  Flush to pit latrine
+                               14  Flush to somewhere else
+                               15  Flush, don't know where
+                               21  Ventilated improved pit latrine
+                               22  Pit latrine with slab
+                               23  Pit latrine without slab/open pit
+                               31  Composting toilet
+                               41  Bucket toilet
+                               51  Hanging toilet/hanging latrine
+                               61  No facility/bush/field
+                               96  Other
+QH106                  Share facilities with other households           106    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH107                  Number of households sharing toilet              107    2    N    I    1    0   No   No
+                               2:9  
+                               95   10 or more households
+                               98   Don't know
+QH108                  Type of cooking fuel                             109    2    N    I    1    0   No   No
+                               1   Electricity
+                               2   Lpg
+                               3   Natural gas
+                               4   Biogas
+                               5   Kerosene
+                               6   Coal, lignite
+                               7   Charcoal
+                               8   Wood
+                               9   Straw/shrubs/grass
+                               10  Agricultural crop residue
+                               11  Animal dung
+                               95  No food cooked in household
+                               96  Other
+QH109                  Number of rooms used for sleeping                111    2    N    I    1    0   No   No
+                               1:24  
+QH110                  Livestock, herds or farm animals                 113    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH111A                 Milk cows                                        114    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH111B                 Other cattle                                     116    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH111C                 Horses/donkeys/mules                             118    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH111D                 Goats                                            120    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH111E                 Sheep                                            122    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH111F                 Chickens or other poultry                        124    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH111G                 Pigs                                             126    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH111H                 Rabbits                                          128    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH111I                 Grasscutter                                      130    2    N    I    1    0   No   No
+                               0     None
+                               1:94  
+                               95    95 or more
+                               98    Unknown
+QH112                  Own land usable for agriculture                  132    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH113U                 Area for agricultural land (unit)                133    1    N    I    1    0   No  Yes
+                               1  Hectares
+                               2  Acres
+                               3  Plots
+                               4  Poles
+                               9  Special answers
+QH113N                 Area for agricultural land (number)              134    4    N    I    1    1  Yes  Yes
+                               0.1:94.9  
+                               95.0      95 or more hectares
+                               99.8      Don't know
+QH114A                 Electricity                                      138    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114B                 Radio                                            139    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114C                 Television                                       140    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114D                 Telephone (non-mobile)                           141    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114E                 Computer                                         142    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114F                 Refrigerator                                     143    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114G                 Freezer                                          144    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114H                 Generator                                        145    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114I                 Washing machine                                  146    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114J                 Camera                                           147    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114K                 Video/dvd/vcd                                    148    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114L                 Sewing machine                                   149    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114M                 Bed                                              150    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114N                 Table                                            151    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114O                 Chair                                            152    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH114P                 Cabinet                                          153    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH115A                 Wrist watch                                      154    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH115B                 Mobile telephone                                 155    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH115C                 Bicycle                                          156    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH115D                 Motorcycle or scooter                            157    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH115E                 Animal-drawn cart                                158    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH115F                 Car, Bus or Truck                                159    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH115G                 Boat with a motor                                160    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH115H                 Boat without a motor                             161    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH116                  Bank account                                     162    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH117                  Main floor material                              163    2    N    I    1    0   No   No
+                               11  Natural: Earth/sand
+                               12  Natural: Dung
+                               21  Rudimentary: Wood planks
+                               22  Rudimentary: Palm/bamboo
+                               31  Finished: Parquet or polished wood
+                               32  Finished: Vinyl or asphalt strips
+                               33  Finished: Ceramic/marble/porcelain/tiles/terrazo
+                               34  Finished: Cement
+                               35  Finished: Woolen carpet/synthetic  carpet
+                               36  Finished: Linoleum/rubber carpet
+                               96  Other
+QH118                  Main roof material                               165    2    N    I    1    0   No   No
+                               11  Natural: Thatch/palm leaf
+                               12  Natural: Mud/sod
+                               21  Rudimentary: Rustic mat
+                               22  Rudimentary: Palm/bamboo
+                               23  Rudimentary: Wood planks
+                               24  Rudimentary: Cardboard
+                               31  Finished: Zinc/aluminium
+                               32  Finished: Wood
+                               33  Finished: Calamine/cement fiber
+                               34  Finished: Ceramic/brick tiles
+                               35  Finished: Cement
+                               36  Finished: Roofing shingles
+                               37  Finished: Asbestos/slate roofing sheets
+                               96  Other
+QH119                  Main wall material                               167    2    N    I    1    0   No   No
+                               11  Natural: Cane/palm/trunks
+                               12  Natural: Mud/landcrete
+                               21  Rudimentary: Bamboo with mud
+                               22  Rudimentary: Stone with mud
+                               23  Rudimentary: Uncovered adobe
+                               24  Rudimentary: Plywood
+                               25  Rudimentary: Cardboard
+                               26  Rudimentary: Reused wood
+                               31  Finished: Cement
+                               32  Finished: Stone with lime/cement
+                               33  Finished: Bricks
+                               34  Finished: Cement blocks
+                               35  Finished: Covered adobe
+                               36  Finished: Wood planks/shingles
+                               96  Other
+QH120H                 End of household interview (hour)                169    2    N    I    1    0   No  Yes
+                               0:23  
+QH120M                 End of household interview (minutes)             171    2    N    I    1    0   No  Yes
+                               0:59  
+QH03                   Relationship to head                             173    2    N    I    1    0   No   No
+                               1   Head
+                               2   Wife or husband
+                               3   Son or daughter
+                               4   Son-in-law or daughter-in-law
+                               5   Grandchild
+                               6   Parent
+                               7   Parent-in-law
+                               8   Brother or sister
+                               9   Other relative
+                               10  Adopted/foster/step child
+                               11  Not related
+                               98  Don't know
+QH04                   Sex of household member                          175    1    N    I    1    0   No   No
+                               1  Male
+                               2  Female
+QH05                   Usual resident                                   176    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH06                   Slept last night                                 177    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH07                   Age of household members in completed years      178    2    N    I    1    0   No   No
+                               0:94  
+                               95    95+
+                               98    Don't know
+QH08                   Ever attended school                             180    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QH09A                  Level of education attended                      181    1    N    I    1    0   No  Yes
+                               0  Pre-Primary
+                               1  Primary
+                               2  Middle
+                               3  Jss/jhs
+                               4  Secondary/Tech/Voc/Comm
+                               5  Sss/Shs/Tech/Voc/Comm
+                               6  Higher
+                               8  Don't know
+QH09B                  Highest grade completed                          182    2    N    I    1    0   No  Yes
+                               0    Less than 1 year completed
+                               1:9  
+                               98   Don't know
+QH10                   Eligibility for interview                        184    2    N    I    1    0   No   No
+                               0     Not eligible
+                               1:50  
+ML07I                  Age corrected from individual questionnaire      186    2    N    I    1    0   No   No
+                               0:94  
+                               95    95+
+                               98    Don't know
+ML07F                  Flag for age correction                          188    1    N    I    1    0   No   No
+                               0  No data from individual questionnaire
+                               1  Month and year
+                               2  Month and age -y imp
+                               3  Year and age - m imp
+                               4  Y & age - y ignored
+                               5  Year - a, m imp
+                               6  Age - y, m imp
+                               7  Month - a, y imp
+                               8  None - all imp
+MLPREG                 Pregnancy status from individual questionnaire   189    1    N    I    1    0   No   No
+                               1  Yes
+                               0  No, don't know
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------

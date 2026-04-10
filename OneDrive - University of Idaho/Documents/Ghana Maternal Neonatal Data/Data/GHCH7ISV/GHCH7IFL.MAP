@@ -1,0 +1,1487 @@
+                                                   GHCH7IFL                                                   
+                                                GHCH7IFL_DICT                                                 
+
+                                        GHCH7IFL.DCF                                                          
+                                     Last Modified:  8/8/2018  9:13:08 AM                                     
+
+--------------------------------------------------------------------------------------------------------------
+Level Name                    Level Label                                                  Type            Rec
+  Record Name                   Record Label                                              Value  Req  Max  Len
+--------------------------------------------------------------------------------------------------------------
+HOUSEHOLD                     Household                                                                       
+  RECORD1                       RECORD1                                                          Yes    1  648
+Level: Household                                       Record: RECORD1
+--------------------------------------------------------------------------------------------------------------
+                                                                                 Data Item            Dec Zero
+Item Name              Item Label                                     Start  Len Type Type  Occ  Dec Char Fill
+--------------------------------------------------------------------------------------------------------------
+QHCLUST           (id) Cluster number                                     1    4    N    I    1    0   No  Yes
+                               1:900  
+QHNUMBER          (id) Household number                                   5    4    N    I    1    0   No  Yes
+QLINE             (id) Individual line number                             9    2    N    I    1    0   No  Yes
+Q212              (id) Line number of child                              11    2    N    I    1    0   No   No
+                               1:24  
+                         (record type)                                    0    0   AN    I    1    0   No   No
+QREGION                Region                                            13    2    N    I    1    0   No   No
+                               1   Western
+                               2   Central
+                               3   Greater accra
+                               4   Volta
+                               5   Eastern
+                               6   Ashanti
+                               7   Brong ahafo
+                               8   Northern
+                               9   Upper east
+                               10  Upper west
+QDISTR                 District                                          15    4    N    I    1    0   No   No
+QINTD                  Day of interview                                  19    2    N    I    1    0   No   No
+                               1:31  
+QINTM                  Month of interview                                21    2    N    I    1    0   No   No
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+QINTY                  Year of interview                                 23    4    N    I    1    0   No   No
+                               2017  
+QINTNUM                Interviewer number                                27    4    N    I    1    0   No   No
+QRESULT                Result of individual interview                    31    1    N    I    1    0   No   No
+                               1  Completed
+                               2  Not at home
+                               3  Postponed
+                               4  Refused
+                               5  Partly completed
+                               6  Incapacitated
+                               7  Other
+QVISITS                Total number of visits                            32    1    N    I    1    0   No   No
+                               1:5  
+QSUPERV                Supervisor number                                 33    4    N    I    1    0   No   No
+QLANGQ                 Language of questionnaire                         37    2    N    I    1    0   No   No
+                               0  English
+                               1  Akan
+                               2  Ga
+                               3  Ewe
+QLANGI                 Language of interview                             39    2    N    I    1    0   No   No
+                               0   English
+                               1   Akan
+                               2   Ga
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+QLANGR                 Language of respondent                            41    2    N    I    1    0   No   No
+                               0   English
+                               1   Akan
+                               2   Ga
+                               3   Ewe
+                               4   Guan
+                               5   Mole-dagbani
+                               6   Grusi
+                               7   Gurma
+                               8   Mande
+                               96  Other
+QTRANS                 Translator used                                   43    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QINTC                  Date of interview (CMC)                           44    4    N    I    1    0   No   No
+                          (na)       Not applicable
+QINTCD                 Date of interview Century Day Code (CDC)          48    5    N    I    1    0   No   No
+                          (na)        Not applicable
+QWEIGHT                Sample weight (6 decimals)                        53    8    N    I    1    0   No   No
+                          (na)           Not applicable
+QTYPE                  Type of place of residence                        61    1    N    I    1    0   No   No
+                               1  Urban
+                               2  Rural
+QCONSENT               Consent agreement                                 62    1    N    I    1    0   No   No
+                               1  Respondent agrees to be interviewed
+                               2  Respondent does not agree to be interviewed
+Q212B                  Single or Multiple Birth                          63    1    N    I    1    0   No   No
+                               1  Single
+                               2  Multiple
+Q212C                  Born alive/dead or miscarriage/abortion           64    1    N    I    1    0   No   No
+                               1  Born alive
+                               2  Born dead
+                               3  Miscarriage
+                               4  Abortion
+Q212D                  Did baby cry, move or breathe                     65    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q213                   Sex of child                                      66    1    N    I    1    0   No   No
+                               1  Boy
+                               2  Girl
+Q215D                  Day of birth                                      67    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Don't know day
+Q215M                  Month of birth                                    69    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               97  Inconsistent
+                               98  Don't know month
+Q215Y                  Year of birth                                     71    4    N    I    1    0   No  Yes
+                               1977:2017  
+                               9997       Inconsistent
+                               9998       Don't know year
+Q216                   Child is still alive                              75    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q217                   Current age of child                              76    2    N    I    1    0   No   No
+                               0:40  
+                               97    Inconsistent
+                               98    Don't know age
+Q220U                  Age at death (units)                              78    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Months
+                               3  Years
+                               9  Special answers
+Q220N                  Age at death (number)                             79    2    N    I    1    0   No  Yes
+                               0:40  
+Q220AAD                Day of dead                                       81    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Don't know day
+Q220AAM                Month of dead                                     83    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               98  Don't know month
+Q220AAY                Year of dead                                      85    4    N    I    1    0   No  Yes
+                               1975:2017  
+                               9998       Don't know year
+Q220ABD                Day of pregnancy termination                      89    2    N    I    1    0   No  Yes
+                               1:31  
+                               98    Don't know day
+Q220ABM                Month of pregnancy termination                    91    2    N    I    1    0   No  Yes
+                               1   January
+                               2   February
+                               3   March
+                               4   April
+                               5   May
+                               6   June
+                               7   July
+                               8   August
+                               9   September
+                               10  October
+                               11  November
+                               12  December
+                               97  Inconsistent
+                               98  Don't know month
+Q220ABY                Year of pregnancy termination                     93    4    N    I    1    0   No  Yes
+                               1975:2017  
+                               9997       Inconsistent
+                               9998       Don't know year
+Q220AC                 Pregnancy duration                                97    2    N    I    1    0   No   No
+                               0:10  
+Q220AD                 Do something to end the pregnancy                 99    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q221                   Live birth between births                        100    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+QLAST5                 Child born alive/dead in the last 5 years        101    1    N    I    1    0   No   No
+                               0  No
+                               1  Yes
+Q215C                  Date of birth of child (CMC)                     102    4    N    I    1    0   No   No
+Q215CD                 Date of birth of child Century Day Code (CDC)    106    5    N    I    1    0   No   No
+                          (na)        Not applicable
+Q215DI                 Imputed day of birth                             111    2    N    I    1    0   No   No
+                               1:31  
+Q215F                  Date flag for Q215C                              113    1    N    I    1    0   No   No
+                               0  Month, year and day
+                               1  Month and year
+                               2  Month and age -y imp
+                               3  Year and age - m imp
+                               4  Y & age - y ignored
+                               5  Year - a, m imp
+                               6  Age - y, m imp
+                               7  Month - a, y imp
+                               8  None - all imp
+Q220C                  Age at death months (imputed)                    114    3    N    I    1    0   No   No
+Q220F                  Date flag for Q220C                              117    1    N    I    1    0   No   No
+                               0  No flag
+                               1  > interview
+                               2  < breastfeeding
+                               3  < age supplemented
+                               4  < first breastfed
+                               5  < last vaccination
+                               6  Outside range
+                               7  Imputed, units given
+                               8  Imputed, no units
+PREGOUT                Pregnancy outcome                                118    1    N    I    1    0   No   No
+                               1  Live birth
+                               2  Stillbirth
+                               3  Miscarriage
+                               4  Abortion
+Q403                   Line number                                      119    2    N    I    1    0   No   No
+                               1:24  
+Q405                   Received antenatal care for pregnancy            121    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q406                   Reason not seeing anyone for antenatal care      122   16   AN    I    1    0   No   No
+                               A                 Not necessary
+                               B                 Not customary
+                               C                 Lack of money
+                               D                 Too far
+                               E                 Transportation problem
+                               F                 No one to accompany
+                               G                 Good service not available
+                               H                 Not permitted by family
+                               I                 Better service at home
+                               J                 Did not know where to go
+                               K                 No female doctor available
+                               L                 Inconvenient service hour
+                               M                 Afraid to go
+                               N                 Long waiting time
+                               O                 Religious reason
+                               X                 Other
+Q407                   Provider of antenatal care for pregnancy         138    7   AN    I    1    0   No   No
+                               A        Health personnel: Doctor
+                               B        Health personnel: Nurse/midwife
+                               C        Health personnel: Com  health officer/nurse
+                               D        Other person: Traditional birth attendant
+                               E        Other person: Village health volunteer
+                               F        Other person: Traditional health practitioner
+                               X        Other
+Q408                   Where antenatal care took place                  145   13   AN    I    1    0   No   No
+                               A              Her home
+                               B              Other home
+                               C              Public: Govt hospital
+                               D              Public: Govt health center/clinic
+                               E              Public: Govt health post/chps
+                               F              Public: Mobile clinic/outreach
+                               G              Public: Other public sector
+                               H              Private: Hospital/clinic
+                               I              Private: Fp/ppag clinic
+                               J              Private: Mobile clinic/outreach
+                               K              Private: Maternity home
+                               L              Private: Other private med sector
+                               X              Other
+Q409                   Months pregnant at first antenatal care          158    2    N    I    1    0   No   No
+                               0:10  
+                               98    Don't know
+Q410                   First antenatal care because of problems or che  160    1    N    I    1    0   No   No
+                               1  Problem
+                               2  Just checkup
+Q411                   Problems during first antenatal care             161   13   AN    I    1    0   No   No
+                               A              Headache
+                               B              Blurry vision
+                               C              Edema/pre-eclampsia
+                               D              Vaginal bleeding
+                               E              Convulsions/eclampsia
+                               F              Tetanus
+                               G              Foul-smelling discharge
+                               H              Lower abdominal pain
+                               I              Fell down
+                               J              Baby movement was low
+                               K              Varicose vein
+                               L              Excessive vomiting
+                               M              Anaemia/body pains/fever/body weakness/malaria
+                               X              Other
+Q412                   Antenatal visits during pregnancy                174    2    N    I    1    0   No   No
+                               1:20  
+                               98    Don't know
+Q413A                  Antenatal care: Blood pressure                   176    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q413B                  Antenatal care: Urine sample                     177    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q413C                  Antenatal care: Blood sample                     178    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q413D                  Antenatal care: Weight                           179    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q413E                  During any antenatal care told about pregnancy   180    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q413F                  Told about where to go if had any complications  181    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q414                   Tetanus injection during pregnancy               182    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q415                   Number of tetanus injections                     183    1    N    I    1    0   No   No
+                               1:6  
+                               7    7 or more
+                               8    Don't know
+Q417                   Tetanus injections before pregnancy              184    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q418                   Number of tetanus injections before pregnancy    185    1    N    I    1    0   No   No
+                               1:6  
+                               7    7 or more
+                               8    Don't know
+Q419                   Years ago received last tetanus injection befor  186    2    N    I    1    0   No   No
+                               0:40  
+Q420                   Iron tablets during pregnancy                    188    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q421                   Number of days took iron tablets                 189    3    N    I    1    0   No   No
+                               0      Didn't take any
+                               1:300  
+                               998    Don't know
+Q422                   Drugs for intestinal parasites                   192    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q423                   During pregnancy took SP/Fansidar for malaria    193    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q424                   How many times took SP/Fansidar (Malaria)        194    2    N    I    1    0   No   No
+                               1:90  
+                               98    Don't know
+Q425                   Took SP/Fansidar during antenatal visit (Malari  196    1    N    I    1    0   No   No
+                               1  Antenatal visit
+                               2  Another facility visit
+                               6  Other source
+Q426B                  Size of child at birth                           197    1    N    I    1    0   No   No
+                               1  Very large
+                               2  Larger than average
+                               3  Average
+                               4  Smaller than average
+                               5  Very small
+                               8  Don't know
+Q427                   Weighed at birth                                 198    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q428U                  Weight at birth (units)                          199    1    N    I    1    0   No  Yes
+                               1  Kilograms from card
+                               2  Kilograms from recall
+                               9  Special answers
+Q428N                  Weight in Kilograms                              200    5    N    I    1    3  Yes  Yes
+                               0.500:6.000  
+                               9.998        Don't know
+Q429                   Assistance at delivery                           205    8   AN    I    1    0   No   No
+                               A         Health personnel: Doctor
+                               B         Health personnel: Nurse/midwife
+                               C         Health personnel: Com  health officer/nurse
+                               D         Other person: Traditional birth attendant
+                               E         Other person: Village health volunteer
+                               F         Other person: Traditional health practitioner
+                               G         Other person: Relative/friend
+                               X         Other
+                               Y         No one assisted
+Q430                   Place of delivery                                213    2    N    I    1    0   No   No
+                               11  Her home
+                               12  Other home
+                               21  Public: Govt hospital
+                               22  Public: Govt health center/clinic
+                               23  Public: Govt health post/chps
+                               24  Public: Mobile clinic/outreach
+                               26  Public: Other public sector
+                               31  Private: Hospital/clinic
+                               32  Private: Fp/ppag clinic
+                               33  Private: Mobile clinic/outreach
+                               34  Private: Maternity home
+                               36  Private: Other private med sector
+                               96  Other
+Q431A                  Reason not delivering at hospital/health centre  215   16   AN    I    1    0   No   No
+                               A                 Not necessary
+                               B                 Not customary
+                               C                 Lack of money
+                               D                 Too far
+                               E                 Transportation problem
+                               F                 No one to accompany
+                               G                 Good service not available
+                               H                 Not permitted by family
+                               I                 Better service at home
+                               J                 Did not know where to go
+                               K                 No female doctor available
+                               L                 Inconvenient service hour
+                               M                 Afraid to go
+                               N                 Long waiting time
+                               O                 Religious reason
+                               P                 Baby came early than expected time
+                               X                 Other
+Q431BA                 Procedure at delivery: Forceps or vacuum         231    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+Q431BB                 Procedure at delivery: Blood transfusion         232    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+Q431BC                 Procedure at delivery: Intravenous fluid         233    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+Q431C                  Suffered from any problem before/after delivery  234    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q431D                  Problems suffered before/after delivery          235   16   AN    I    1    0   No   No
+                               A                 Headache
+                               B                 Blurry vision
+                               C                 Edema/pre-eclampsia
+                               D                 Excessive bleeding
+                               E                 Convulsions/eclampsia
+                               F                 Tetanus
+                               G                 Foul-smelling discharge
+                               H                 Baby movement was low
+                               I                 Baby's hands/feet came out first
+                               J                 Prolonged labour
+                               K                 Obstructed labour
+                               L                 Torn uterus
+                               M                 Placenta previa/retained
+                               N                 High fever
+                               O                 Fistula
+                               P                 Abdominal pain
+                               X                 Other
+Q431E                  Saw anyone about the problem                     251    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q431F                  Reason not seeing anyone about the problem       252   17   AN    I    1    0   No   No
+                               A                  Not necessary
+                               B                  Not customary
+                               C                  Lack of money
+                               D                  Too far
+                               E                  Transportation problem
+                               F                  No one to accompany
+                               G                  Good service not available
+                               H                  Not permitted by family
+                               I                  Better service at home
+                               J                  Did not know where to go
+                               K                  No female doctor available
+                               L                  Inconvenient service hour
+                               M                  Afraid to go
+                               N                  Long waiting time
+                               O                  Religious reason
+                               P                  Not life threatening
+                               X                  Other
+Q431G                  Who saw the problem                              269    8   AN    I    1    0   No   No
+                               A         Health Personnel: Doctor
+                               B         Health Personnel: Nurse/midwife
+                               C         Health Personnel: Com  health officer/nurse
+                               D         Other person: Traditional birth attendant
+                               E         Other person: Village health volunteer
+                               F         Other person: Traditional health practitioner
+                               G         Other person: Relative/friend
+                               X         Other
+Q431H                  Where was treated for the problem                277    2    N    I    1    0   No   No
+                               11  Her home
+                               12  Other home
+                               21  Public: Govt hospital
+                               22  Public: Govt health center/clinic
+                               23  Public: Govt health post/chps
+                               24  Public: Mobile clinic/outreach
+                               26  Public: Other public sector
+                               31  Private: Hospital/clinic
+                               32  Private: Fp/ppag clinic
+                               33  Private: Mobile clinic/outreach
+                               34  Private: Maternity home
+                               36  Private: Other private med sector
+                               96  Other
+Q431I                  Condition improved after treated                 279    1    N    I    1    0   No   No
+                               1  No change
+                               2  Improved
+                               3  Worsened
+                               8  Don't know
+Q431J                  Referred/told to go to another place             280    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q431K                  Where was referred/told to go for treatment      281    2    N    I    1    0   No   No
+                               21  Public: Govt hospital
+                               22  Public: Govt health center/clinic
+                               23  Public: Govt health post/chps
+                               24  Public: Mobile clinic/outreach
+                               26  Public: Other public sector
+                               31  Private: Hospital/clinic
+                               32  Private: Fp/ppag clinic
+                               33  Private: Mobile clinic/outreach
+                               34  Private: Maternity home
+                               36  Private: Other private med sector
+                               96  Other
+Q431L                  Went to the referred place                       283    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q431M                  Reason not going to the referred place for trea  284   17   AN    I    1    0   No   No
+                               A                  Not necessary
+                               B                  Not customary
+                               C                  Lack of money
+                               D                  Too far
+                               E                  Transportation problem
+                               F                  No one to accompany
+                               G                  Good service not available
+                               H                  Not permitted by family
+                               I                  Better service at home
+                               J                  Did not know where to go
+                               K                  No female doctor available
+                               L                  Inconvenient service hour
+                               M                  Afraid to go
+                               N                  Long waiting time
+                               O                  Religious reason
+                               P                  Not life threatening
+                               X                  Other
+Q432U                  Time spent in health facility after delivery (U  301    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               9  Special answers
+Q432N                  Time spent in health facility after delivery (N  302    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+                           (m) 99    Missing
+Q433A                  Delivery by caesarean section                    304    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+Q433B                  Timing of decision on caesarean section          305    1    N    I    1    0   No   No
+                               1  Before
+                               2  After
+                           (m) 9  Missing
+Q434                   Child was put on the chest immediately after bi  306    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q434A                  Child bare skin touched respondent bare skin     307    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q435                   Postnatal check on respondent before discharge   308    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+Q436U                  First postnatal check on respondent (Units)      309    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               9  Special answers
+Q436N                  First postnatal check on respondent (Number)     310    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+Q437                   Person giving postnatal care to respondent       312    2    N    I    1    0   No   No
+                               11  Health personnel: Doctor
+                               12  Health personnel: Nurse/midwife
+                               13  Health personnel: Com  health officer/nurse
+                               21  Other person: Traditional birth attendant
+                               22  Other person: Village health volunteer
+                               23  Other person: Traditional health practitioner
+                               96  Other
+Q438B                  First postnatal check on child in facility       314    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+Q439U                  Time first postnatal check on child in facility  315    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               9  Special answers
+Q439N                  Time first postnatal check on child in facility  316    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+Q440                   Person giving postnatal care to child  in facil  318    2    N    I    1    0   No   No
+                               11  Health personnel: Doctor
+                               12  Health personnel: Nurse/midwife
+                               13  Health personnel: Com  health officer/nurse
+                               21  Other person: Traditional birth attendant
+                               22  Other person: Village health volunteer
+                               23  Other person: Traditional health practitioner
+                               96  Other
+Q441                   Checkup on respondent after discharge from plac  320    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                           (m) 9  Missing
+Q442U                  Time checkup on respondent after discharge (uni  321    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               9  Special answers
+Q442N                  Time checkup on respondent after discharge (num  322    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+Q443                   Person giving checkup on respondent after disch  324    2    N    I    1    0   No   No
+                               11  Health personnel: Doctor
+                               12  Health personnel: Nurse/midwife
+                               13  Health personnel: Com  health officer/nurse
+                               21  Other person: Traditional birth attendant
+                               22  Other person: Village health volunteer
+                               23  Other person: Traditional health practitioner
+                               96  Other
+Q444                   Place of checkup on respondent after discharge   326    2    N    I    1    0   No   No
+                               11  Her home
+                               12  Other home
+                               21  Public: Govt hospital
+                               22  Public: Govt health center/clinic
+                               23  Public: Govt health post/chps
+                               24  Public: Mobile clinic/outreach
+                               26  Public: Other public sector
+                               31  Private: Hospital/clinic
+                               32  Private: Fp/ppag clinic
+                               33  Private: Mobile clinic/outreach
+                               34  Private: Maternity home
+                               36  Private: Other private med sector
+                               96  Other
+Q445B                  Health child checked in first 2 months after bi  328    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+                           (m) 9  Missing
+Q446U                  First postnatal check on child (unit)            329    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               9  Special answers
+Q446N                  First postnatal check on child (number)          330    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+Q447                   Person giving postnatal check on child           332    2    N    I    1    0   No   No
+                               11  Health personnel: Doctor
+                               12  Health personnel: Nurse/midwife
+                               13  Health personnel: Com  health officer/nurse
+                               21  Other person: Traditional birth attendant
+                               22  Other person: Village health volunteer
+                               23  Other person: Traditional health practitioner
+                               96  Other
+Q448                   Place of first postnatal check                   334    2    N    I    1    0   No   No
+                               11  Her home
+                               12  Other home
+                               21  Public: Govt hospital
+                               22  Public: Govt health center/clinic
+                               23  Public: Govt health post/chps
+                               24  Public: Mobile clinic/outreach
+                               26  Public: Other public sector
+                               31  Private: Hospital/clinic
+                               32  Private: Fp/ppag clinic
+                               33  Private: Mobile clinic/outreach
+                               34  Private: Maternity home
+                               36  Private: Other private med sector
+                               96  Other
+Q449                   Respondent received postnatal check after home   336    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q450U                  Time respondent received postnatal check after   337    1    N    I    1    0   No  Yes
+                               1  Hours
+                               2  Days
+                               3  Weeks
+                               9  Special answers
+Q450N                  Time respondent received postnatal check after   338    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+Q451                   Person giving postnatal check on respondent aft  340    2    N    I    1    0   No   No
+                               11  Health personnel: Doctor
+                               12  Health personnel: Nurse/midwife
+                               13  Health personnel: Com  health officer/nurse
+                               21  Other person: Traditional birth attendant
+                               22  Other person: Village health volunteer
+                               23  Other person: Traditional health practitioner
+                               96  Other
+Q452                   Place postnatal check on respondent after home   342    2    N    I    1    0   No   No
+                               11  Her home
+                               12  Other home
+                               21  Public: Govt hospital
+                               22  Public: Govt health center/clinic
+                               23  Public: Govt health post/chps
+                               24  Public: Mobile clinic/outreach
+                               26  Public: Other public sector
+                               31  Private: Hospital/clinic
+                               32  Private: Fp/ppag clinic
+                               33  Private: Mobile clinic/outreach
+                               34  Private: Maternity home
+                               36  Private: Other private med sector
+                               96  Other
+Q453B                  Child received postnatal check after home deliv  344    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q454U                  Time child received postnatal check after home   345    1    N    I    1    0   No  Yes
+                               1  Hours after birth
+                               2  Days after birth
+                               3  Weeks after birth
+                               9  Special answers
+Q454N                  Time child received postnatal check after home   346    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+Q455                   Person giving postnatal check on child after ho  348    2    N    I    1    0   No   No
+                               11  Health personnel: Doctor
+                               12  Health personnel: Nurse/midwife
+                               13  Health personnel: Com  health officer/nurse
+                               21  Other person: Traditional birth attendant
+                               22  Other person: Village health volunteer
+                               23  Other person: Traditional health practitioner
+                               96  Other
+Q456                   Place postnatal check on child after home deliv  350    2    N    I    1    0   No   No
+                               11  Her home
+                               12  Other home
+                               21  Public: Govt hospital
+                               22  Public: Govt health center/clinic
+                               23  Public: Govt health post/chps
+                               24  Public: Mobile clinic/outreach
+                               26  Public: Other public sector
+                               31  Private: Hospital/clinic
+                               32  Private: Fp/ppag clinic
+                               33  Private: Mobile clinic/outreach
+                               34  Private: Maternity home
+                               36  Private: Other private med sector
+                               96  Other
+Q457A                  During first two days, health care provider: ex  352    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q457B                  During first two days, health care provider: me  353    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q457C                  During first two days, health care provider: co  354    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q457D                  During first two days, health care provider: co  355    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q457E                  During first two days, health care provider: ob  356    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q500                   Line number of recent abortion in 2012 or later  357    2    N    I    1    0   No   No
+                               1:24  
+Q501                   Year of most recent abortion in 2012 or after    359    4    N    I    1    0   No   No
+                               2012  2012
+                               2013  2013
+                               2014  2014
+                               2015  2015
+                               2016  2016
+                               2017  2017
+                               9998  DK year
+Q502A                  Main reason for abortion                         363    2    N    I    1    0   No   No
+                               1   Health of mother
+                               2   Risk of birth defect
+                               3   Fetus not viable
+                               4   No money to take care of baby
+                               5   Too young to have child
+                               6   Not ready to be a mother
+                               7   No one to help me look after the child
+                               8   Wanted to delay childbearing
+                               9   Wanted to space child
+                               10  Wanted to continue schooling
+                               11  Wanted to continue working
+                               12  Wanted no more children
+                               13  Did not love the father
+                               14  Did not want to stay with the father
+                               15  Partner did not want child/denied the pregnancy
+                               16  Father of child died
+                               17  Child's sex
+                               18  Because of rape
+                               19  To avoid shame
+                               20  Afraid of parents
+                               21  Parents insisted
+                               96  Other
+Q502B                  Any other reason for abortion                    365    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q502C                  Other reasons for abortion                       366   22   AN    I    1    0   No   No
+                               A                       Health of mother
+                               B                       Risk of birth defect
+                               C                       Fetus not viable
+                               D                       No money to take care of baby
+                               E                       Too young to have child
+                               F                       Not ready to be a mother
+                               G                       No one to help me look after the child
+                               H                       Wanted to delay childbearing
+                               I                       Wanted to space child
+                               J                       Wanted to continue schooling
+                               K                       Wanted to continue working
+                               L                       Wanted no more children
+                               M                       Did not love the father
+                               N                       Did not want to stay with the father
+                               O                       Partner did not want child/denied the pregnancy
+                               P                       Father of child died
+                               Q                       Child's sex
+                               R                       Because of rape
+                               S                       To avoid shame
+                               T                       Afraid of parents
+                               U                       Parents insisted
+                               X                       Other
+Q503                   Partner's attitude toward abortion               388    1    N    I    1    0   No   No
+                               1  Favored
+                               2  Opposed
+                               3  Neutral
+                               4  He did not know
+                               5  Don't know/don't remember
+Q504                   Multiple steps to end pregnancy                  389    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q505U                  Time between first attempt and final (Units)     390    1    N    I    1    0   No  Yes
+                               1  Days
+                               2  Weeks
+                               9  Special answers
+Q505N                  Time between first attempt and final (Number)    391    2    N    I    1    0   No  Yes
+                               0:90  
+                               98    Don't know
+Q506                   First action to end pregnancy                    393    2    N    I    1    0   No   No
+                               11  Drank milk/coffee/alcohol/other liquid with lots of sugar
+                               12  Drank herbal concoction
+                               13  Drank other home remedies
+                               14  Used any herbal enema
+                               15  Inserted herb/object/other substance in the vagina
+                               16  Heavy massage
+                               17  Excessive physical activity
+                               18  Tablets (exact kind unknown)
+                               21  Cytotec tablets (Misoprostol)
+                               22  Mifepristone + Misoprostol (Medabon,etc)
+                               23  IV / Oxytocin
+                               31  D&C / D&E
+                               32  Vacuum aspiration
+                               33  Injection in abdomen (saline instillation)
+                               34  Catheter
+                               35  Other injection
+                               96  Other
+Q507                   Provider for first step to end pregnancy         395    2    N    I    1    0   No   No
+                               1   Health personnel: Doctor
+                               2   Health personnel: Nurse/midwife
+                               3   Health personnel: Com  health officer/nurse
+                               4   Other person: Pharmacist/chemical seller
+                               5   Other person: Traditional birth attendant
+                               6   Other person: Community health volunteer
+                               7   Other person: Relative/friend
+                               8   Other person: Traditional practitioner
+                               9   No one
+                               96  Other
+Q508                   Source for first step to end pregnancy           397    2    N    I    1    0   No   No
+                               11  Public: Govt hospital
+                               12  Public: Govt health center/clinic
+                               13  Public: Govt health post/chps
+                               14  Public: Mobile clinic/outreach
+                               16  Public: Other public sector
+                               21  Private: Hospital/clinic
+                               22  Private: Fp/ppag clinic
+                               23  Private: Mobile clinic/outreach
+                               24  Private: Maternity home
+                               25  Private: Pharmacy/chemist/drug store
+                               26  Private: Other private medical sector
+                               31  Respondent's home
+                               32  Other home
+                               33  TBA's home
+                               96  Other
+Q509A                  Anything paid to get procedure done              399    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q509B                  Person who paid for first step to end pregnancy  400    7   AN    I    1    0   No   No
+                               A        Respondent
+                               B        Partner
+                               C        Mother
+                               D        Father
+                               E        Other family member
+                               F        Friend
+                               X        Other
+Q510                   Bleeding from first step to end pregnancy        407    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q511                   Bleeding was mild/moderate/severe                408    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q512                   Pain from first step to end pregnancy            409    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q513                   Pain was mild/moderate/severe                    410    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q514                   Fever from first step to end pregnancy           411    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q515                   Fever was mild/moderate/severe                   412    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q516                   Injury or perforation from first step to end pr  413    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q517                   Injury or perforation was mild/moderate/severe   414    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q518                   Vaginal discharge from first step to end pregna  415    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q519                   Vaginal discharge was mild/moderate/severe       416    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q520                   Any other problem (1) from first step to end pr  417    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q521                   Problem (1) from first step to end pregnancy     418    4    N    I    1    0   No   No
+                               9996  Other problem
+Q522                   Problem (1) mild/moderate/severe from first ste  422    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q523                   Any other problem (2) from first step to end pr  423    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q524                   Problem (2) from first step to end pregnancy     424    4    N    I    1    0   No   No
+                               9996  Other problem
+Q525                   Problem (2) mild/moderate/severe from first ste  428    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q526                   Any other problem (3) from first step to end pr  429    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q527                   Problem (3) from first step to end pregnancy     430    4    N    I    1    0   No   No
+                               9996  Other problem
+Q528                   Problem (3) mild/moderate/severe from first ste  434    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q529                   Any other problem (4) from first step to end pr  435    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q530                   Problem (4) from first step to end pregnancy     436    4    N    I    1    0   No   No
+                               9996  Other problem
+Q531                   Problem (4) mild/moderate/severe from first ste  440    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q532                   Took any pain relievers after first step to end  441    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q533                   Last action to end pregnancy                     442    2    N    I    1    0   No   No
+                               11  Drank milk/coffee/alcohol/other liquid with lots of sugar
+                               12  Drank herbal concoction
+                               13  Drank other home remedies
+                               14  Used any herbal enema
+                               15  Inserted herb/object/other substance in the vagina
+                               16  Heavy massage
+                               17  Excessive physical activity
+                               18  Tablets (exact kind unknown)
+                               21  Cytotec tablets (Misoprostol)
+                               22  Mifepristone + Misoprostol (Medabon,etc)
+                               23  IV / Oxytocin
+                               31  D&C / D&E
+                               32  Vacuum aspiration
+                               33  Injection in abdomen (saline instillation)
+                               34  Catheter
+                               35  Other injection
+                               96  Other
+Q534                   Provider for last step to end pregnancy          444    2    N    I    1    0   No   No
+                               1   Health personnel: Doctor
+                               2   Health personnel: Nurse/midwife
+                               3   Health personnel: Com  health officer/nurse
+                               4   Other person: Pharmacist/chemical seller
+                               5   Other person: Traditional birth attendant
+                               6   Other person: Community health volunteer
+                               7   Other person: Relative/friend
+                               8   Other person: Traditional practitioner
+                               9   No one
+                               96  Other
+Q535                   Source for last step to end pregnancy            446    2    N    I    1    0   No   No
+                               11  Public: Govt hospital
+                               12  Public: Govt health center/clinic
+                               13  Public: Govt health post/chps
+                               14  Public: Mobile clinic/outreach
+                               16  Public: Other public sector
+                               21  Private: Hospital/clinic
+                               22  Private: Fp/ppag clinic
+                               23  Private: Mobile clinic/outreach
+                               24  Private: Maternity home
+                               25  Private: Pharmacy/chemist/drug store
+                               26  Private: Other private medical sector
+                               31  Respondent's home
+                               32  Other home
+                               33  TBA's home
+                               96  Other
+Q536A                  Anything paid to get procedure done              448    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q536B                  Person who paid for last step to end pregnancy   449    7   AN    I    1    0   No   No
+                               A        Respondent
+                               B        Partner
+                               C        Mother
+                               D        Father
+                               E        Other family member
+                               F        Friend
+                               X        Other
+Q537                   Took antibiotics after abortion                  456    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q538                   Took any pain relievers after last step to end   457    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q539B                  Local anesthesia for abortion                    458    1    N    I    1    0   No   No
+                               1  Local
+                               2  General
+                               3  Neither
+                               8  Don't know
+                           (m) 9  Missing
+Q540                   Health problems in first month after abortion    459    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q541                   Bleeding in first month after abortion           460    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q542                   Bleeding was mild/moderate/severe                461    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q543                   Pain in first month after abortion               462    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q544                   Pain was mild/moderate/severe                    463    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q545                   Fever in first month after abortion              464    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q546                   Fever was mild/moderate/severe                   465    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q547                   Injury or perforation in first month after abor  466    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q548                   Injury or perforation was mild/moderate/severe   467    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q549                   Foul-smelling discharge in first month after ab  468    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q550                   Foul-smelling discharge was mild/moderate/sever  469    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q551                   Any other problem (1) in first month after abor  470    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q552                   Problem (1) in first month after abortion        471    4    N    I    1    0   No   No
+                               9996  Other problem
+Q553                   Problem (1) mild/moderate/severe in first month  475    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q554                   Any other problem (2) in first month after abor  476    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q555                   Problem (2) in first month after abortion        477    4    N    I    1    0   No   No
+                               9996  Other problem
+Q556                   Problem (2) mild/moderate/severe in first month  481    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q557                   Any other problem (3) in first month after abor  482    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q558                   Problem (3) in first month after abortion        483    4    N    I    1    0   No   No
+                               9996  Other problem
+Q559                   Problem (3) mild/moderate/severe in first month  487    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q560                   Any other problem (4) in first month after abor  488    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q561                   Problem (4) in first month after abortion        489    4    N    I    1    0   No   No
+                               9996  Other problem
+Q562                   Problem (4) mild/moderate/severe in first month  493    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q563B                  Received treatment for health problems due to a  494    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q564                   Type of treatment received for health problems   495    4   AN    I    1    0   No   No
+                               A     Operation
+                               B     Blood transfusion
+                               C     Antibiotics
+                               X     Other
+Q565                   Source of treatment for health problems due to   499   15   AN    I    1    0   No   No
+                               A                Public: Govt hospital
+                               B                Public: Govt health center/clinic
+                               C                Public: Govt health post/chps
+                               D                Public: Mobile clinic/outreach
+                               E                Public: Other public sector
+                               F                Private: Hospital/clinic
+                               G                Private: Fp/ppag clinic
+                               H                Private: Mobile clinic/outreach
+                               I                Private: Maternity home
+                               J                Private: Pharmacy/chemist/drug store
+                               K                Private: Other private medical sector
+                               L                Respondent's home
+                               M                Other home
+                               N                TBA's home
+                               X                Other
+Q566A                  Spent any nights in a health facility in the fi  514    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q566BU                 Time spent in health facility due to abortion (  515    1    N    I    1    0   No  Yes
+                               1  Nights
+                               2  Weeks
+                               9  Special answers
+Q566BN                 Time spent in health facility due to abortion (  516    2    N    I    1    0   No  Yes
+                               0:31  
+                               98    Don't know
+Q567                   Visited by doctor or health worker before or af  518    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q568                   Any health problems six months after abortion    519    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               3  Not yet 6 months
+                               8  Don't know
+Q569                   Health problems six months after abortion        520    7   AN    I    1    0   No   No
+                               A        Abdominal pain
+                               B        Sterility
+                               C        Infection
+                               D        Lack of period
+                               E        Irregular period
+                               F        More painful period
+                               X        Other
+Q570                   Using contraception at the time she became preg  527    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q571                   Contraception used at the time she became pregn  528    2    N    I    1    0   No   No
+                               1   Female sterilization
+                               2   Male sterilization
+                               3   Iud
+                               4   Injectables
+                               5   Implants
+                               6   Pill
+                               7   Condom
+                               8   Female condom
+                               9   Diaphragm
+                               10  Foam/jelly
+                               11  Lactational amenorrhea method
+                               12  Rhythm method
+                               13  Withdrawal
+                               96  Other
+Q572                   Health professional spoke about contraception b  530    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q573                   When health professional spoke about contracept  531    1    N    I    1    0   No   No
+                               1  Before the abortion
+                               2  After the abortion
+                               3  Both before and after the abortion
+                               8  Don't know
+Q574                   Health worker gave contraception method or FP a  532    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q575                   Given method of contraception, prescription or   533    1    N    I    1    0   No   No
+                               1  Gave method
+                               2  Prescribed a method
+                               3  Gave referral
+                               8  Don't know
+Q600                   Line number of recent miscarriage in 2012 or la  534    2    N    I    1    0   No   No
+                               1:24  
+Q601                   Year of most recent miscarriage in 2012 or afte  536    4    N    I    1    0   No   No
+                               2012  2012
+                               2013  2013
+                               2014  2014
+                               2015  2015
+                               2016  2016
+                               2017  2017
+                               9998  DK year
+Q602                   Cause of miscarriage                             540    1    N    I    1    0   No   No
+                               1  Accident
+                               2  Ate something
+                               3  Someone hurt me
+                               4  Spontaneous
+                               6  Other
+                               8  Don't know
+Q603                   Where miscarriage occurred                       541    2    N    I    1    0   No   No
+                               11  Public: Govt hospital
+                               12  Public: Govt health center/clinic
+                               13  Public: Govt health post/chps
+                               14  Public: Mobile clinic/outreach
+                               16  Public: Other public sector
+                               21  Private: Hospital/clinic
+                               22  Private: Fp/ppag clinic
+                               23  Private: Mobile clinic/outreach
+                               24  Private: Maternity home
+                               25  Private: Pharmacy/chemist/drug store
+                               26  Private: Other private medical sector
+                               31  Respondent's home
+                               32  Other home
+                               33  TBA's home
+                               41  Workplace
+                               51  Public place
+                               96  Other
+Q604A                  Sought help for miscarriage                      543    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q604B                  From whom sought help for miscarriage            544    9   AN    I    1    0   No   No
+                               A          Health personnel: Doctor
+                               B          Health personnel: Nurse/midwife
+                               C          Health personnel: Com  health officer/nurse
+                               D          Other person: Pharmacist/chemical seller
+                               E          Other person: Traditional birth attendant
+                               F          Other person: Community health volunteer
+                               G          Other person: Relative/friend
+                               H          Other person: Traditional practitioner
+                               X          Other
+Q604C                  Place got help for miscarriage                   553   15   AN    I    1    0   No   No
+                               A                Public: Govt hospital
+                               B                Public: Govt health center/clinic
+                               C                Public: Govt health post/chps
+                               D                Public: Mobile clinic/outreach
+                               E                Public: Other public sector
+                               F                Private: Hospital/clinic
+                               G                Private: Fp/ppag clinic
+                               H                Private: Mobile clinic/outreach
+                               I                Private: Maternity home
+                               J                Private: Pharmacy/chemist/drug store
+                               K                Private: Other private medical sector
+                               L                Respondent's home
+                               M                Other home
+                               N                TBA's home
+                               X                Other
+Q605                   Uterus cleaned after miscarriage                 568    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q606                   Method to clean uterus                           569    2    N    I    1    0   No   No
+                               1   D&c
+                               2   Vacuum aspiration
+                               3   Oxytocin
+                               4   Cytotec tablets (misoprostol)
+                               5   Mifepristone + misoprostol
+                               6   Catheter
+                               7   Tablets for insertion
+                               8   Herbal mixture insertion
+                               96  Other
+                               98  Don't know
+Q607                   Took antibiotics after miscarriage               571    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q608                   Given pain relievers after miscarriage           572    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q609B                  Anesthesia for miscarriage                       573    1    N    I    1    0   No   No
+                               1  Local
+                               2  General
+                               3  Neither
+                               8  Don't know
+Q610                   Any health problems due to miscarriage           574    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q611                   Bleeding from miscarriage                        575    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q612                   Bleeding was mild/moderate/severe                576    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q613                   Pain from miscarriage                            577    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q614                   Pain was mild/moderate/severe                    578    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q615                   Fever from miscarriage                           579    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q616                   Fever was mild/moderate/severe                   580    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q617                   Injury or perforation from miscarriage           581    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q618                   Injury or perforation was mild/moderate/severe   582    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q619                   Foul-smelling discharge from miscarriage         583    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q620                   Foul-smelling discharge was mild/moderate/sever  584    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q621                   Any other problem (1) from miscarriage           585    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q622                   Problem (1) from miscarriage                     586    4    N    I    1    0   No   No
+                               9996  Other problem
+Q623                   Problem (1) mild/moderate/severe from miscarria  590    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q624                   Any other problem (2) from miscarriage           591    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q625                   Problem (2) from miscarriage                     592    4    N    I    1    0   No   No
+                               9996  Other problem
+Q626                   Problem (2) mild/moderate/severe from miscarria  596    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q627                   Any other problem (3) from miscarriage           597    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q628                   Problem (3) from miscarriage                     598    4    N    I    1    0   No   No
+                               9996  Other problem
+Q629                   Problem (3) mild/moderate/severe from miscarria  602    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q630                   Any other problem (4) from miscarriage           603    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q631                   Problem (4) from miscarriage                     604    4    N    I    1    0   No   No
+                               9996  Other problem
+Q632                   Problem (4) mild/moderate/severe from miscarria  608    1    N    I    1    0   No   No
+                               1  Mild
+                               2  Moderate
+                               3  Severe
+                               8  Don't know
+Q633                   Received treatment for health problems due to m  609    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q634                   Type of treatment received for health problems   610    4   AN    I    1    0   No   No
+                               A     Operation
+                               B     Blood transfusion
+                               C     Antibiotics
+                               X     Other
+Q635                   Source of treatment for health problems due to   614   15   AN    I    1    0   No   No
+                               A                Public: Govt hospital
+                               B                Public: Govt health center/clinic
+                               C                Public: Govt health post/chps
+                               D                Public: Mobile clinic/outreach
+                               E                Public: Other public sector
+                               F                Private: Hospital/clinic
+                               G                Private: Fp/ppag clinic
+                               H                Private: Mobile clinic/outreach
+                               I                Private: Maternity home
+                               J                Private: Pharmacy/chemist/drug store
+                               K                Private: Other private medical sector
+                               L                Respondent's home
+                               M                Other home
+                               N                TBA's home
+                               X                Other
+Q636A                  Spent any nights in a health facility in the fi  629    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q636BU                 Time spent in health facility due to miscarriag  630    1    N    I    1    0   No  Yes
+                               1  Nights
+                               2  Weeks
+                               9  Special answers
+Q636BN                 Time spent in health facility due to miscarriag  631    2    N    I    1    0   No  Yes
+                               0:31  
+                               98    Don't know
+Q637                   Visited by doctor or health worker before or af  633    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               8  Don't know
+Q638                   Any health problems six months after miscarriag  634    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+                               3  Not yet 6 months
+                               8  Don't know
+Q639                   Health problems six months after miscarriage     635    7   AN    I    1    0   No   No
+                               A        Abdominal pain
+                               B        Sterility
+                               C        Infection
+                               D        Lack of period
+                               E        Irregular period
+                               F        More painful period
+                               X        Other
+Q640                   Using contraception at the time she became preg  642    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q641                   Contraception used at the time she became pregn  643    2    N    I    1    0   No   No
+                               1   Female sterilization
+                               2   Male sterilization
+                               3   Iud
+                               4   Injectables
+                               5   Implants
+                               6   Pill
+                               7   Condom
+                               8   Female condom
+                               9   Diaphragm
+                               10  Foam/jelly
+                               11  Lactational amenorrhea method
+                               12  Rhythm method
+                               13  Withdrawal
+                               96  Other
+Q642                   Health professional spoke about contraception b  645    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q643                   When health professional spoke about contracept  646    1    N    I    1    0   No   No
+                               1  Before the miscarriage
+                               2  After the miscarriage
+                               3  Both before and after the miscarriage
+                               8  Don't know
+Q644                   Health worker gave contraception method or FP a  647    1    N    I    1    0   No   No
+                               1  Yes
+                               2  No
+Q645                   Given method of contraception, prescription or   648    1    N    I    1    0   No   No
+                               1  Gave method
+                               2  Prescribed a method
+                               3  Gave referral
+                               8  Don't know
+--------------------------------------------------------------------------------------------------------------
+Relation Name         Primary               Linked by             Secondary             Linked by
+--------------------------------------------------------------------------------------------------------------
